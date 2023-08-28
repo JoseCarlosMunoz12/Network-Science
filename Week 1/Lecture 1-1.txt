@@ -1,4 +1,104 @@
 August 28, 2023
 
 Network Science
+		Types of networks
+			Social networks, technological network, networks of inf, and bio networks
+		Major Topics
+			Measurement of Networks
+				centrality, similarity
+			Properties of networks
+				small world, long tails
+			Network formation
+				rich get richer models
+			models of process taking place on networks(diffusion, epidemics, etc.)
+				diffusion, epidemics
+	Schedule
+		Centrality
+		similarity
+		properties of real world networks
+		process on networks
+		Got another presentation to do
+		Final Exam on Dec 11, 11 - 1:30pm
+		6 hw assaingment,have a week to complete it. Two copies.
 	
+	Examples of real world networks
+		Arpa net, connect 13 computers from the 70s.
+		Social media is another type of network
+		fact of Internet. Can't say much abouts its structure because it was built by many diff groups of people with little centralized control
+		best current data onits structure is derived from experimental measurements
+		Phone Network is also anothe example of networks
+		Power grids, airline and rail lines are also other networks
+	Networks of Information
+		The web is a directed network wher the nodes are web pages and the directed edges are hypelinks
+		web sites might just be copies of others web pages
+		Page Rank is an algorithm to rank web pages
+		Economic and financial networks are also that. Cryptocurrencies are anotherrone
+		Citation networks
+			Academic papers that link with other papers to show which othe papers are related to it
+		Recommender networks
+			use users data inf to show which product is something they will like
+	The 80/20 rule
+		Vilifredo Pareto, notice that 80% wealth belongs to 20% richest. Similar rule occures in citation network
+		can prove this rule mathematically. nearly all networks have this property
+		why? is due to a special type of models of network formation. Models of this type are rich-get-richer models
+		Biological network also display this property
+	Social Network
+		Social media, Twitters, Facebook and othe social media sites
+		Collaboration Networks: Erdos number
+			Collaboration network, nodes are mathematicians: two nodes are connced by an edge if they co-outred a paper indexed by MathSciNet
+		Erdos Number:
+			is the collaboration distance from paul Erdos
+		Shows distance from one mathematician from one to another
+			in other, shortest closest nodes path.
+		Kevin bacon number, similar concept.
+	Small World Expirements
+		Expirements that people are about 6 degree of seperation in the social media space
+		Decentralized search allows to find closest people
+		Another properties have Positive and negative relationship
+		these network allows to show stability of a relationship
+		over time, stable relationship win out
+	Biological Networks
+		won't have time to cover this. But, independent research can talk more about this.
+		metabolic networks, protein-protein interaction properties
+		gene regulatory networks
+		Medical network, such as how each disease is realted to each other and effect on human body
+		Ecological network
+			food webs
+Graph Theory.
+	Definition of Graph Theory
+		A graph is just a set of vertices connted by edges
+		A Vertex holes some object of information. and a edge connectes two nodes(could be the same)
+	Format Definition
+		A Graph G = (V,E)
+		set of vertices V and a set of Edges E
+		V = {v,v} and E = {e,e}
+		relationship of edges and vertices, need to show each edge and its associated vertices
+		-------------
+		e_1 | {v1, v2}
+		e_2 | {v1}
+		e_3 | {v2}
+	two vertices are adjacent if they are endpoints of the same edge
+	adjacent vertices are also called neighbors
+	edges connects ints endpoint.
+	if vertex has no incident, its isolated
+	Directed Graphs
+		Graphs that show edge, vertice and direction of the edge
+	Weighted Graphs
+		graph in which edge has a weight value.
+	Vertex Degrees
+		is number of edges connected to a vertex
+		a loop is counted twice
+		ex, facebook vertex degree are friends
+		Total degree summation of all degrees of each vertex
+		handshake Theorem
+		Sum deg(v) = 2 * M
+		where m is number of edges
+		Total degree of a graph is even
+		in directed graph, us in degree and out degree
+	Simple Graph
+		a simple is a graph tha does not have loops
+	Complete graph.
+		a graph with all possible edges
+	Bipartite Graph
+		a simple graph whose vertex set V can be devided into two disjont nonempty subset V1 and V2.
+		
