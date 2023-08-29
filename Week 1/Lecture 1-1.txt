@@ -101,4 +101,4 @@ Graph Theory.
 		a graph with all possible edges
 	Bipartite Graph
 		a simple graph whose vertex set V can be devided into two disjont nonempty subset V1 and V2.
-		
+	6.1, 6.4, 6.6, 6.10
