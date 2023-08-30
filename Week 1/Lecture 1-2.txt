@@ -1,5 +1,89 @@
 August 30, 23
 
-Math in Graphs
-	Notations of Matrices for Graphs
-	
+Recap
+	use graph to model networks
+	Graphs are vertices and edge( connections between vertices)
+		These are finite selection
+	Proper Definition
+		2 sets, a set of vertices and set of edges
+		for each edge, specify its vertices
+		ex V= {v0, v1}, E = {e0, e1}
+		e0 | v0 v1
+		e2 | v0 <- this is a loop for an edge that connect to itself
+	Directed graph is same as a simple graph, but tells which direction it goes
+	Adjecent vertex
+		Vertecies that are connected to each other(aka its neighbor)
+Math in Graphs (Matrices)
+	3 methos to depict graphs
+		Matrices, Adjecency Matrices, incident Matrices
+	Matrices play important role for algorithm for networks
+		Definition of a matrix, a set of vectors(in linear algebra)
+		In Network Science, a twodimensional array number
+		contains m rows and n columns
+	Best to think of them as a form of data structure
+		[ 0 0 0]
+		[ 0 0 0]   <- is a 4x3 ( 4 rows and 3 columns)
+		[ 0 0 0]
+		[ 0 0 0]
+	a_{ij} ith element for row element, jth element for the column element
+		so a_32, row 3 column 2
+	In course use addition and multiplication
+		mxk * kxn = mxn
+	Identity matrix
+		[M] = [M] * I = I *[M]
+	A^0 = I_n, A^r = A*A...A, r times
+	Transpse of a matrix, a matrix is reflected in diagnal line
+		mxn - > nxm
+	Symetric Matrix when A^T = A, same value in all a_ij
+	Find formula A^n, when A = [[1 1],[0 1]]
+		whenever n = positive
+		A^n = [[1 n],[0 1]]
+Graph Representation
+	3 most common method for graph representation
+	1) Adjacency lists
+		fairly simple. essentially a set
+		a table that shows vertex and its adjacnet vertices
+		{
+			{a,[b,c,e]},
+			{b,[a]},
+			{c,[a,d,e]}
+		}
+		efficient way for some algorithm, forms a good list
+		Directed graph is the same, but only shows vertices that are out going, as in Inita V a goes to b. 
+		since b doesn't go to a, in this situation, it doesn;t show a as a neighbor
+		Adjacency List
+		{
+			{a, [b,c,d]},
+			{b, [a,d]},
+			{d, [b,c,a]},
+			{c, [a,d]},
+		}
+		Adjacency direction list
+		{
+			{a, [a,b,c,d]},
+			{b, [d]},
+			{d, [c,b,d]},
+			{c, [a,b]},
+		}
+	2) Adjacency Matrix
+		A matrix rows and columns represetn one vvertix. value represent number of edges to each vertex
+		[[0 1 0 1],[1 1 2 1],[0 2 0 0],[1 1 0 1]
+		Undirected graphs, its adjancency matrix are symmetric
+		For directed graph, its similar but it isn't usually symmetric
+		Adjacency matrix
+		[[0 0 1 0]
+		 [0 0 1 2]
+		 [1 1 0 1]
+		 [0 2 1 0]]
+	3)incidence Matrices
+		All application, it is used once. Most algorith, 1) and 2) are good enough
+		each row a vertex and each row is a column
+		aij = {1 when ej is an incidence to vi, else 0}
+		[
+		 [1 1 1 0 0 0 0 0]
+		 [0 1 1 1 0 1 1 0]
+		 [0 0 0 1 1 0 0 0]
+		 [0 0 0 0 0 0 1 1]
+		 [0 0 0 0 1 1 0 0]
+		]
+		
