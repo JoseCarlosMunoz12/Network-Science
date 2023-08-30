@@ -86,4 +86,17 @@ Graph Representation
 		 [0 0 0 0 0 0 1 1]
 		 [0 0 0 0 1 1 0 0]
 		]
-		
+Paths in Graphs
+	vertices needed to take to get to another vertices(ensuring that its connected with edges and its in order)
+	is simple if no need to take same edge again
+	path, goes from one point to another
+	circuit path, start and ends in the same points
+	shortest path, smallest length
+	distance between u and vis the lengthof the shortest path of them
+	diamter of a graph is the lasrget distance between its vetices, not to itself
+	graph is connected if any two nodes has a path between them
+	Connected components are sub graphs of a graph that are connected
+	in matrices with connected components, its possble to label vertices to be block Matrix
+	how to count number of paths, 
+	A^n, where n is how many number of paths to each other. with adjacency matrix
+	
