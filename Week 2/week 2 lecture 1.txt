@@ -1,0 +1,34 @@
+September 6, 2023
+Week 2 Lecture 1
+
+Connectivity in Directed Graphs
+	A Connect graph is there is a path between any two nodes in a graph
+	Directed Graphs doesn't always let a path of two nodes to travel between each other
+	a directed graph G is stronlgy connected if for each vertices u and v
+	there is path from u to v and there is a path from v to u
+	A Strongly connected Component	
+		Each Sub graph of the Graph, has a strongly connected graph. The over graph doesn't necessary needs to all have a path, but each subgraph can
+	DFS and BFS can find stronly connected compenent of a graph
+	Read sections 6.11-6.12
+	hw, 3 about graph, 3 are about next topic
+Ex for Graphs
+	if G has 100 V and 200 E, then aveage distance is 2 * 200 =? 400 so just 4?
+		ans: 4
+	Draw graph of 4 vertices
+		[[0 1 0 0][0 1 1 0][0 1 1 2][0 0 2 1]]
+	draw graph of 1 2,3,3
+		ans:not possible because total graph is odd, not even
+	A simple graph(doesn't have loops, including parallel loop)
+		ans: it is not possible with this
+		if simple graph, max adjacent degree is n -1 vertices so since one edge is 4, not possible
+	five vertices of 1,2,3,4,5
+	is even total so it is possible
+	K_n is a complete graph
+	each edge of the node contain  n -1
+		ans: (n 2) => n choose two
+			from n, choose 2
+			or (n k) => from n choose k
+			its also as n(n-1) /2
+		(n k) = n!/(k!(n-k)!)
+	can also apply handshake Theorem
+		2 * M = n(n-1) each node has n-1 degree
