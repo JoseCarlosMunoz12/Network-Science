@@ -32,3 +32,13 @@ Ex for Graphs
 		(n k) = n!/(k!(n-k)!)
 	can also apply handshake Theorem
 		2 * M = n(n-1) each node has n-1 degree
+	which set of thse graph are sub graph of G
+	W,U,P,R,S
+	K_nn is a complete bipartate graph of m and n vertices
+	so all edges from m to n
+	Complement of the graph is the same vertices but flip from edge to no edge and visa versa
+		so, *---*  * => *   *---*
+	Is it true that every simple graph has at least two vertices of the same, prove it
+		This is true, use the handshake theorem. total edges is 2 * m, m is number of degrees
+		
+		
