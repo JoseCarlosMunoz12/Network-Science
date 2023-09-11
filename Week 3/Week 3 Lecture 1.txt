@@ -1,3 +1,25 @@
 September 11, 2023
 Recap From Last weeks last excersize
 	There is 34 simple graphs with 5 vertices, for last weeks excersize. But how was this calculated?
+	Not 34, much bigger. How big? 1024
+	k_5 has a total of 10 = ( 5 * 4)/2;
+	now any graph is a subgraph of each edges
+	how many subset of 10 are there,
+	2^10 number of subset of edges. Number of subset of 10 is 2^10.
+Centrality in Networks
+	study how to measure properties of networks
+	Central nodes
+		A typicla questi is "Which are the most imprtant or central nodes in a network?"
+		have a good position, is important.
+		in Image Jill is more important.
+		in some measure Jill is not the most important in centrality measure.
+	Three Major Aproches to measure Centrality
+		1) Closeness centrality:
+			Measure importance based on distance to each other node
+			as in who has the most neighbors.
+		2)Betweenness Centrality:
+			determains over who has control over path in the networks. As in who lets what info to pass along the nodes.
+		3)Degree Centraility:
+			importance of a node is determined by how many neighbots it has and how iportant the neighbors are.
+			Google search, eigenvector, degree, HITS Rnaking
+		
