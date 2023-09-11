@@ -22,4 +22,44 @@ Centrality in Networks
 		3)Degree Centraility:
 			importance of a node is determined by how many neighbots it has and how iportant the neighbors are.
 			Google search, eigenvector, degree, HITS Rnaking
-		
+	Example of Centrality:
+		Medici Family was not the richest family. Rose power because they gain tool by controlling central positions in the netwrok of family inter-marriages. These marriages were keys to communicating inf, making deal and reaching political decisions
+	Closeness Centrality:
+		Measure centrality based on closness.
+		l_i = 1/n\sum^{dij}^{n}_{j=1}
+		distance is the length of the closest past from node i to node j
+		l_i is the average distance from node i to toher nodes
+		the centrality is 1/l_i = n /\sum{d_ij}
+		ex
+			5/(0 + 1 + 2 + 2 + 3) = 5 / 8
+			5/(1 + 0 + 1 + 1 + 2) = 5 / 5
+			5/(2 + 1 + 2 + 0 + 1) = 5 / 6
+			5/(3 + 2 + 1 + 1 + 0) = 5 / 7
+		Closeness can be used in some application. it is a good measure of centrality
+		Make sense only for connected class. infinite distance in a disconnected graph
+		Closness values are well sepearted. This reason is more serious. real world network have close centrality.
+		Small world phenomenon occurs in close network.
+	Betweenness Centraility:
+		Measure centrality based on the control of the shortest path of the graph. The control of flow. 
+		Flow vertices are connected by paths along wich something flows. A typical exmaple of flow is inf.
+		Shortest path.:
+			standard assumption and based on physics, choose shortest path between nodes.
+		Control over shortest paths
+		number of shortest path between s and t that pass through vertex 2/total number of shortest paths between s and t.
+		( numbers of path that passes node i)/# all shortest paths
+		pair(s,t), P_i(s,t) number of passes through i from path s to i(shortest)
+		P(s,t) total number of shortest path between s and t.
+		when calculatin centrality, measure without the node we are intersted. So node pair that dont' include node i
+		betweness of vertex 2:
+		1/(n-1 2) \sum{\frac{P_i(s,t)}{P(s,t)}}_{s,t}
+		make sure that s != i and t != i and s != t
+		(1/6)(0) = 0
+		(1/6)(1/2 + 1/2 + 0/1 + 0/1 +0 /1 + 0/1)
+		(1/6)(1/2 + 1/2 + 0 /1 + 0/1 + 0/1 + 0/1)
+		(1/6)(0) = (0 + 1/2)
+		Betweenness is really useful for real world networks
+		why Betweenness?
+			Closness centrality how much a node is connected with other. Betweenness centraily how much a node falls between others. A nodes can be a long way from otehr on average still have high betweness. These nodes allows bridges to be connected with different communities. also called as brokers in sociology
+		7.1.6 to 1.17
+Excersizes
+	
