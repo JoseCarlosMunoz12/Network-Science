@@ -40,5 +40,6 @@ Ex for Graphs
 		so, *---*  * => *   *---*
 	Is it true that every simple graph has at least two vertices of the same, prove it
 		This is true, use the handshake theorem. total edges is 2 * m, m is number of degrees
-		
+		pigeaon hole principle, read it
+	How man simple graph with 5 vertices
 		

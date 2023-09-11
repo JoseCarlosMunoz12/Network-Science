@@ -1,0 +1,3 @@
+September 11, 2023
+Recap From Last weeks last excersize
+	There is 34 simple graphs with 5 vertices, for last weeks excersize. But how was this calculated?
