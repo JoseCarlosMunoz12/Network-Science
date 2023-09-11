@@ -62,4 +62,16 @@ Centrality in Networks
 			Closness centrality how much a node is connected with other. Betweenness centraily how much a node falls between others. A nodes can be a long way from otehr on average still have high betweness. These nodes allows bridges to be connected with different communities. also called as brokers in sociology
 		7.1.6 to 1.17
 Excersizes
-	
+	1)Betweenness over graph.
+		nPr(9 2) = 36 options
+		1 betweenness is 0
+		2 betweeness is 0 as well
+		4 is also 0
+	 	3 (20/36) =0.56
+		n(n-1)/2
+	2) High degree but not the largest closesness
+		0-0-0-0-0-0
+				-0
+		line but last one has 2 degree.Not nececessary the one witht he highest degree
+	3) vertex with the largre betweens in no the largest flow.
+		
