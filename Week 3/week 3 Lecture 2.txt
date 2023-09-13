@@ -5,18 +5,18 @@ Centrality In Networks
 	Centrality in Networks 3 way
 		Based on importance around their neighbors
 		The moer neighbors one node has, the more imprtant they are
-	Hub- a node with high degree
-	Degree Centrality
-	Another example, Social Friends
-		more friends, could be more imporant
-		problem, fake friends. Not all neighbors are equivalent.
-		Might have few degrees, but the nodes are of high imprtance
-	given a directed graph, the in-degree centrlaity of a vertex is ht in degree of V
-		ex. number of ref. to an article
-		draw back, several citation recived from higly cited article may be moreiportant than many citations from low cited articles.
-	Need to take into account of Node importance. still
-	overcoming the draw back, Eigenvector Centrality, Google's PageRank,  and HITS Ranking
-Definition of en Eigenvector Centrality
+		Hub- a node with high degree
+		Degree Centrality
+		Another example, Social Friends
+			more friends, could be more imporant
+			problem, fake friends. Not all neighbors are equivalent.
+			Might have few degrees, but the nodes are of high imprtance
+		given a directed graph, the in-degree centrlaity of a vertex is ht in degree of V
+			ex. number of ref. to an article
+			draw back, several citation recived from higly cited article may be moreiportant than many citations from low cited articles.
+		Need to take into account of Node importance. still
+		overcoming the draw back, Eigenvector Centrality, Google's PageRank,  and HITS Ranking
+	Definition of en Eigenvector Centrality
 	Eigenvector lat A be an nxn matrix over C. Let x be an n-dimensional non zero vector C. we call x and eigenvector of A if there exits a complex number lambda such that Ax = \lambda x, The value \lambda is called the eigenvalue of corresponding to X
 	matrix A times vector X = constant lambda times vector X.
 	[A]X =\lambdaX
@@ -48,25 +48,66 @@ Definition of en Eigenvector Centrality
 		A is the matrix. X is eigenvector that satisfies \sum of vector to be n
 		A is a 1000x100 if x is a 1000x1
 		
-Computing eigenvector Centrality
-	classical one is to find the determinent of 
-	|A-\lambda I| degree of polynomial is n
-	for small ones its fine, but for billion nodes, its too much for practial format
-	Next method is Power Iteration method
-		pickinitial vector and the repeatdly multiply it by A, normatlize the vector after each iteration, this mace the vector converge towards the noralized leaden vector. The rate of converence depends on the ration of lambda1/lambda2
-		(need to see this in practice)
-	Variants
-		the method is rarly used in the simple form aboe sinze the matrix multiplication is time consuming. hower some methond are made to efficent calculation
-		Sparse Matrices are what Google's page Rank uses
-	QR algorithm
-		his method can be seen as a variation of the powe iteration where A is decomposend into an orthogonal matrix A and an uppe triangular matrix R
-	Devide and conquer.
-		this one has been in competitive in terms of efficiency with more traditional algorithms.
-Extension to directed graphs
-	Complication
-		Asymmetry of adjacency matrix. common approach is to take incoming edges raner than outgoin edges.
-		need to use a different type of connectivity
-		real world networks are not strongly connected
-	Google's PageRank method takes into account only incoming edges
-	HITS ranking method takesinto account both incoming and outgoing edges
+	Computing eigenvector Centrality
+		classical one is to find the determinent of 
+		|A-\lambda I| degree of polynomial is n
+		for small ones its fine, but for billion nodes, its too much for practial format
+		Next method is Power Iteration method
+			pickinitial vector and the repeatdly multiply it by A, normatlize the vector after each iteration, this mace the vector converge towards the noralized leaden vector. The rate of converence depends on the ration of lambda1/lambda2
+			(need to see this in practice)
+		Variants
+			the method is rarly used in the simple form aboe sinze the matrix multiplication is time consuming. hower some methond are made to efficent calculation
+			Sparse Matrices are what Google's page Rank uses
+		QR algorithm
+			his method can be seen as a variation of the powe iteration where A is decomposend into an orthogonal matrix A and an uppe triangular matrix R
+		Devide and conquer.
+			this one has been in competitive in terms of efficiency with more traditional algorithms.
+		Extension to directed graphs
+			Complication
+				Asymmetry of adjacency matrix. common approach is to take incoming edges raner than outgoin edges.
+				need to use a different type of connectivity
+				real world networks are not strongly connected
+			Google's PageRank method takes into account only incoming edges
+			HITS ranking method takesinto account both incoming and outgoing edges
+			Katz centrality read section 7.1.3
+Search on the Web
+	the web is many computers connected together
+	the web != internet
+	internet consists of each pc
+	web consits of webpages. it is a hyperlink that connects to another page
+	internet all devices, the web consists of webpages. 
+	how does google search for what we ask it?
+		Searching is easy, ranking is done differently
+		ranking is much harder tod o
+	General approach
+		relevance. First task is to find pages relevant that are to what is being searched.
+		need of ranking because many pages to choose one. Need to know which page is the most usefull
+	Early methods
+		a combination of content, temr frequency, number of visits
+		term frequency- is easy to spam
+		Number of visits is also easy to spam
+	Hits and PageRanke appear in same year 1998
+		both algorithm were based on the same idea: Link analysis
+	both use ranking based on link analysis
+		rank is determin eonly by structure of references
+	Link Analysis
+		we is model as directed graph weher nodes ae web pages and edges are hyperlinks
+		a directed edge from node u and v is thought of as an endoresement
+		2 thinsgs into take into account a higher the rank of U, the higher the contrivution of (uv) ot the rank of v
+		the more endorsement u made, the smaller the contrinution of (u,v) to the rank of v
+	The Web Graph
+		web graph is a directed graph in which 
+			the vertices are static web pages
+			the directed edges are hyperlinks between static web pages
+		static web page is a web page that is delierd to that suer exactly as its stored. Dynamic pages are not taken into account
+	how big is the web?
+		we don't know the web graph's structure
+		crawlers are used to go through the web and see where stuff are go. like a BFS algorithm
+		all we know of web is baed on crawlers
+		Can't find all static pages
+			1) many pages don't have incoming links
+			2) many websites do not allow crawlers to examin some of thier pages
+		Best way to ask is to kow how many web pages are indexed by a serach engine
+		
+Efficient implementation of PageRank
 	
