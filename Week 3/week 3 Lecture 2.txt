@@ -17,4 +17,56 @@ Centrality In Networks
 	Need to take into account of Node importance. still
 	overcoming the draw back, Eigenvector Centrality, Google's PageRank,  and HITS Ranking
 Definition of en Eigenvector Centrality
+	Eigenvector lat A be an nxn matrix over C. Let x be an n-dimensional non zero vector C. we call x and eigenvector of A if there exits a complex number lambda such that Ax = \lambda x, The value \lambda is called the eigenvalue of corresponding to X
+	matrix A times vector X = constant lambda times vector X.
+	[A]X =\lambdaX
+	Idea of Eigenvector Centrality
+		the score of a node is proportianl to the sum of the scores of its neighbors
+		let x_i be a node i, c is some coefficient.
+		x_i = c *\sum{x_j}_j
+		j is the sum taken over all neighbors of i.
+		write same quality as c \sum A_ij * x_j
+		x = c * Ax
+		A_ij 1 for neighbors and 0 for not neighbors
+		So for X a vector of all the score of each node will be as a n eigen vector
+		[A]*X = \frac{1}{c} X
+		so the centrality scores of each node is the eigenvector of the adjacency matrix of A
+		X is a vector.
+		If there is a unique definition, then it is a good definition, but a matrix doesn't always have one eigenvector.
+		how can we choose a simgle among them?
+		
+		Non-negative Centrality
+			Choose an eigen vector in which all are postive values.
+			Perron-Frobenius theorem  allow us to have a positive value.
+		Only one such vector in which all are positive, the leading eigvenvactor.
+		The one with the largest eigenvalue will be the one with the leading eigenvector
+	Leading eigenvector has property of values being non negative.
+	
+	how to choose if infinetly many leading vector
+		one of the standard choices is the eigenvector normalzied by the require that the sum = n. this choice ensure that average centrality is controlld
+	Connected simple graph.
+		A is the matrix. X is eigenvector that satisfies \sum of vector to be n
+		A is a 1000x100 if x is a 1000x1
+		
+Computing eigenvector Centrality
+	classical one is to find the determinent of 
+	|A-\lambda I| degree of polynomial is n
+	for small ones its fine, but for billion nodes, its too much for practial format
+	Next method is Power Iteration method
+		pickinitial vector and the repeatdly multiply it by A, normatlize the vector after each iteration, this mace the vector converge towards the noralized leaden vector. The rate of converence depends on the ration of lambda1/lambda2
+		(need to see this in practice)
+	Variants
+		the method is rarly used in the simple form aboe sinze the matrix multiplication is time consuming. hower some methond are made to efficent calculation
+		Sparse Matrices are what Google's page Rank uses
+	QR algorithm
+		his method can be seen as a variation of the powe iteration where A is decomposend into an orthogonal matrix A and an uppe triangular matrix R
+	Devide and conquer.
+		this one has been in competitive in terms of efficiency with more traditional algorithms.
+Extension to directed graphs
+	Complication
+		Asymmetry of adjacency matrix. common approach is to take incoming edges raner than outgoin edges.
+		need to use a different type of connectivity
+		real world networks are not strongly connected
+	Google's PageRank method takes into account only incoming edges
+	HITS ranking method takesinto account both incoming and outgoing edges
 	
