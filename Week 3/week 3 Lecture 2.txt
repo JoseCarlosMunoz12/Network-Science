@@ -108,6 +108,12 @@ Search on the Web
 			1) many pages don't have incoming links
 			2) many websites do not allow crawlers to examin some of thier pages
 		Best way to ask is to kow how many web pages are indexed by a serach engine
-		
+		problems iwth websize estimation
+		indexing websites have it own issue
+		Depth of Indexing
+			when idexin a website, sarch engines may index pages only ins some depth limit
+		Duplicates and enar duplicats.
+			A good chunk of the internet is just duplicates of other pages. Search angiens to their best to try to avoid indexing these copies
+			
 Efficient implementation of PageRank
 	
