@@ -1,0 +1,20 @@
+September 13, 2023
+
+Week 3 Lecture 2
+Centrality In Networks
+	Centrality in Networks 3 way
+		Based on importance around their neighbors
+		The moer neighbors one node has, the more imprtant they are
+	Hub- a node with high degree
+	Degree Centrality
+	Another example, Social Friends
+		more friends, could be more imporant
+		problem, fake friends. Not all neighbors are equivalent.
+		Might have few degrees, but the nodes are of high imprtance
+	given a directed graph, the in-degree centrlaity of a vertex is ht in degree of V
+		ex. number of ref. to an article
+		draw back, several citation recived from higly cited article may be moreiportant than many citations from low cited articles.
+	Need to take into account of Node importance. still
+	overcoming the draw back, Eigenvector Centrality, Google's PageRank,  and HITS Ranking
+Definition of en Eigenvector Centrality
+	
