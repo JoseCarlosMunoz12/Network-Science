@@ -36,8 +36,22 @@
 \section*{2}
 This graph is not a stronly connected graph. This is because Vertex B and E does not have a path that directly leads to them. 
 \section*{3}
-
+This simple graph is not a bipartite graph. This is beause it is not possible to generate two subset graphs that within the same set are adjacent
 \section*{4}
+from the graph we can see that node 1, 2, 6 and 7 are symmetric to each other. Node 3 and 5 are also symetric.
+\begin{align*}
+C_{1,2,6,7}& =\frac{7}{0 +1 +1 +2 +3 +4 + 4} & & C_{3,5} & =\frac{7}{1 +1 +0 +1 +2 +3 + 3} & &C_4 & =\frac{7}{2 + 2 + 1 + 0 + 1 + 2 + 2}\\
+C_{1,2,6,7}& =\frac{7}{15}                             & & C_{3,5} &=\frac{7}{11}                              & &C_4 & =\frac{7}{10}
+\end{align*}
+so we can say that the Closeness of nodes 1,2,6,7 are $\frac{7}{15}$, nodes 3 and 5 are $\frac{7}{11}$ and node 4 is $\frac{7}{10}$
 \section*{5}
+Just by looking at the graph, we can tell that the betweeness for Node 1,3,4,5 are zero.
+\begin{align*}
+B_{2}& =\frac{1}{{5-1\choose 2}} * (\frac{0}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1})\\
+B_{2}& =\frac{1}{{4\choose 2}} * (0 + 1+1+1+1+1)\\
+B_{2} & =\frac{1}{6} * (5)\\
+B_{2} & =\frac{5}{6}
+\end{align*}
+So the Betweeness of nodes 1,3,4,5 are zero and the betweeness of node 2 is $\frac{5}{6}$
 \section*{6}
 \end{document}
