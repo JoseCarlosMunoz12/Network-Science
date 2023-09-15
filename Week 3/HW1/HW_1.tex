@@ -54,4 +54,23 @@ B_{2} & =\frac{5}{6}
 \end{align*}
 So the Betweeness of nodes 1,3,4,5 are zero and the betweeness of node 2 is $\frac{5}{6}$
 \section*{6}
+1)\\
+From thie graph, we know that vertices 6 and 7 are symmetric. So both will have the same closeness factor
+\begin{align*}
+C_1 &= \frac{7}{0 + 1 + 1 +2 +2 +3 +3}=\frac{7}{12}\\
+C_2 &= \frac{7}{1 + 0 + 1 +2 +1 +2 +2}=\frac{7}{9}\\
+C_3 &= \frac{7}{1 + 1 + 0 +1 +2 +3 +3}=\frac{7}{11}\\
+C_4 &= \frac{7}{2 + 2 + 1 +0 +3 +4 +4}=\frac{7}{16}\\
+C_5 &= \frac{7}{2 + 1 + 2 +3 +0 +1 +1}=\frac{7}{10}\\
+C_{6,7} &= \frac{7}{3 + 2 + 3 +4 +1+2 +0}=\frac{7}{15}
+\end{align*}
+Vertex 2 is the one with the higest Closeness
+2)\\
+All combination of paths have a total of 1 shoretst path. So fro $P(u,v)$ in which u and v do not equal each other is 1. From the Graph we can see that for vertices 2,3 and 5, thier betweeness is non zero. While the rest are 0.
+\begin{align*}
+B_2 &= \frac{1}{{7-1\choose 2}}*9=\frac{9}{15}\\
+B_3 &= \frac{1}{{7-1\choose 2}}*4=\frac{4}{15}\\
+B_5 &= \frac{1}{{7-1\choose 2}}*8=\frac{8}{15}\\
+\end{align*}
+So the vertex with the largest betweenness is vertex 2
 \end{document}
