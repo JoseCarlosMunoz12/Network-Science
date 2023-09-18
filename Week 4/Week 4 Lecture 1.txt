@@ -1,0 +1,21 @@
+September 18, 2023
+
+Efficient Implementation Of PageRank
+	Idea of Eigen Vector
+		Degree Centrality based on the highest Eigen Value of the of the Adjacency Matrix
+		The Eigenvector centralitiy is  the score ofa node is proportional to the sum of the scores of its neighbors.
+	Best Eigenvector to choose is the one with the highest and that vector will have the best values and all items are non zero
+	Works well with undirected graph, will need to modify it for directed graph
+	main problem, in web, some nodes have outgoing but no ingoing edges
+PageRank
+	Page Ranek is a modification to handle directed graphs
+	Random walks on the web
+		standard term in graph theorem
+	Idea of Page Rank
+		why rank, will need to measure node centralitiy of a node in the web.
+		a random walker start some arbitray page, of the x number of hyperlinks, we choose one in random. continue this with the next page until desired iterations
+		Using this  we can have a higher probabilites of visiting a page if used more.
+		if page p is cisited more often than page q, then p is more important than q.
+		The rank of page p is the probability of visiting p.
+		how do we compute this? It is suprisingly simple
+	
