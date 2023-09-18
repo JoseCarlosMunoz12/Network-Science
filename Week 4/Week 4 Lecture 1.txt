@@ -7,7 +7,7 @@ Efficient Implementation Of PageRank
 	Best Eigenvector to choose is the one with the highest and that vector will have the best values and all items are non zero
 	Works well with undirected graph, will need to modify it for directed graph
 	main problem, in web, some nodes have outgoing but no ingoing edges
-PageRank
+PageRank Part 1
 	Page Ranek is a modification to handle directed graphs
 	Random walks on the web
 		standard term in graph theorem
@@ -44,7 +44,7 @@ PageRank
 		(not true for all areas but it is useful, also refered as memoryless)
 		memoryless - probabilites of next state depends only current state
 	Excersizew
-		P =
+		[P] =
 		[
 			[0.0 0.5 0.5 0.0 0.0 0.0]
 			[0.0 0.0 0.0 0.0 0.0 0.0]
@@ -57,6 +57,58 @@ PageRank
 		The web can have nodes that are dead ends, so it is possible to use Markov chain, but will need to modify it
 	Stationary Distribution
 		How to adjust random walk, to make into a Markov Chain random walk?
-			
-	
-	
+		probabiites of being ina ll possible state at time t form a distribution vector X^t
+		the summation of all the distribution vector is 1
+		if we know transitoin matrix P and distribution vector x^t, then we can compute x(t+1)
+		x^t+1 = x^t*[P] (row vector is used)
+	Computation of Distribution Vector
+		x^0 is the initial distribution vector
+		x^t = x^0[P]^t
+		In thoery, with this method we can find all the rank of the pages on the web.
+	Rank as Limit Probabilites
+		For each node, there is a limit
+		pi= lim(F(i,t)/t)
+		F(i,t) is the number of visits of a page i in t steps
+		rank of page i as frequecy of visiting i during the random walk.
+	Stationary Distribution
+		limit probabiites
+		is distribution \pi such that \pi = \pi *[P]
+		how to compute this? Simplest way is system of equation
+		the system of equation will be the \pi*[P] and sum of \pi = 1
+		Have to solve system of equation
+	Questions
+		Given a Markove Chian, does it have a station distribution? - not always
+		If Markov has one, is it unique - no, many could exist
+		how can we compute a stationary distribution? can be computationaly expensive
+		Does it makes sense to use Stationary Distribution?
+		Answer to thes equation is Ergodic Markov chain
+	Ergodic Markov Chain
+		a Markov Chain is Ergodic if
+			*it is pissble to get to any state from any stat with a non zero probability
+			*there is at least one stat that is periodic
+		Fundemantal Theorem of Markov Chain, if the MC is Ergodic, then it has a unique stationary
+		distribution
+	While good, the Web is not 100% ergodic. it is not a MC
+	Sligthly modify the Random walk to make it into a Markov Chain
+PageRank part 2
+	Adjusted Model (Adjusted Random Walk)
+		what was the adjustment to the random walk?
+		Fires easy to resolve issue with sinks
+		when arrivin at a sink move to a node picked a random from all nodes
+		Adjusted Graph migh not be strongly connected. So the walker can now do a Jump to any node of G
+		
+	First Step of Adjustment From [P] to [P`]
+		at sink, jump to a node picked at random from all nodes
+		so that row of {0,...} will be {1/n,...}
+		This will be a markov chian but not a ergodic markov chain
+		there is no path from node 6 and 5 to 1, so will be needed to modify to make into ergodic markov chain.
+	Second step
+		2 choics in node
+			a chance of clicking a link or a chacne of going somwhere else
+		a chance of jumping to another node
+		1-a chance of jumping to select a hyperlink
+		a is 15% in google
+	New Matrix
+		y_ij = (1-a) x_ij + a * (1/N)
+
+		
