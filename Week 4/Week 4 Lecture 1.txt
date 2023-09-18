@@ -18,4 +18,45 @@ PageRank
 		if page p is cisited more often than page q, then p is more important than q.
 		The rank of page p is the probability of visiting p.
 		how do we compute this? It is suprisingly simple
+	Notation used to describe the model
+		N is number of webpags
+		Steps, step in the random walk
+		Probability if visiting x_i^t is probability of being at i at step t
+		Out-Degrees out(i) is the out-degree of page i(number of out going links to pages)
+		In Neighbors IN(i) is the set of all pages point to page i
+	Ex
+		x_1(t) = 0.5
+		x_3(t+1) = ?
+		there is a total of 5 outgoing degrees
+		only 2 outgoing to x_3^{t+1}
+		so 2/5(no, need to take into account previous possible nodes chances as well)
+		0.5*0.5 + 0.3 * 1/3=
+		0.25 + 0.1 = 0.35
+	General
+		x_k^{t+1} = \sum_{i \contain IN(k)} \frac{x_i^t+1}{out(i)}
+		Similar recurrences occur in Markov chains
+	Markov chain
+		A Directed graph. In whic the state are the nodes and the transitions are the edges. Each edges have a probabilites of being selected
+		Transitions Matrices for Markov Chains
+		[P] is the probabilty of each transtion
+		the summation of each row is 1.(must be 1 for probabilites to make sense)
+		The future behavior of Markov chain depends only on its current state, now on how it arrived at the present state
+		(not true for all areas but it is useful, also refered as memoryless)
+		memoryless - probabilites of next state depends only current state
+	Excersizew
+		P =
+		[
+			[0.0 0.5 0.5 0.0 0.0 0.0]
+			[0.0 0.0 0.0 0.0 0.0 0.0]
+			[1/3 1/3 0.0 0.0 1/3 0.0]
+			[0.0 0.0 0.0 0.0 0.5 0.5]
+			[0.0 0.0 0.0 0.5 0.0 0.5]
+			[0.0 0.0 0.0 1.0 0.0 0.0]
+		]
+		it is not a markov chain because row 2 is not 1. an Markov Chain is that it is infinite. The random walk will go on forever
+		The web can have nodes that are dead ends, so it is possible to use Markov chain, but will need to modify it
+	Stationary Distribution
+		How to adjust random walk, to make into a Markov Chain random walk?
+			
+	
 	
