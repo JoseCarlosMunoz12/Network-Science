@@ -110,5 +110,6 @@ PageRank part 2
 		a is 15% in google
 	New Matrix
 		y_ij = (1-a) x_ij + a * (1/N)
+		P_2 =(1-a)[P1] + a[E_N]
 
 		

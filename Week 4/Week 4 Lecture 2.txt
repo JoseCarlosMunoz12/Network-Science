@@ -1,0 +1,10 @@
+September 20, 2023
+
+PageRanke Continue
+	Recap
+		P_1 is the new choices when in a sink node
+		the row of <0> will be turn in a uniform distribution for all other nodes
+		P_1 is good and makes it into a Markov Chain, however, needs to improve to make it into a Erogdic Markov Chain ( which will have a Stationary Distribution
+		Plan was to two option before checkign a link a chance of jumping around and a 1-a chance of picking a Hyperlink
+		P_2 =(1-a)[P+1] + a[E_N]
+		
