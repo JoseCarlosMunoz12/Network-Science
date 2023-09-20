@@ -68,4 +68,24 @@ PageRank Continue
 		the rate of convergence is determined by the second eigenvalue \lambda is about 1-a
 		Accuracy
 			if e is dsirced accuracy, then the number k of iterations is determin by (1-a)^\lambda \leq e
+HITS Hyperlink Induse Topic Search
+	Idea behind HITS
+		Google Pagerank, doesn't depend on search objective
+		Better if use what you are looking for
+		HITS is query dependent
+	How to implement it
+		First choose pages relavent for what you are looking for
+		Query independent is efficient, but Query Dependnt is accurate
+	Smaller graph in HITs
+		HITS find a smaller graph and operats on this graph. So , depening on query q, HITS makes a smaller graph G_q and operates here
+		G_q is the subgraph of G in qhich it finds relavent pages to q
+		add all pages that either point ot he pages in G_q or are pointed to by hte page in G_q
+	Another Idea
+		Hubs and Authorites
+		checks how good and how imporant the page is to the query
+		ex
+			newspaper in Chicago
+			either
+			a) look for website of chicago major newspaper
+			b) looking for information about all newspapers published in chiago
 		
