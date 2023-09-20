@@ -1,10 +1,71 @@
 September 20, 2023
 
-PageRanke Continue
+PageRank Continue
 	Recap
+		PageRanke is finding a centrality in a directed graph
+		PageRank of a webpage
+			The Rank is the probability of a crawler finding that page in a random walk
+			Doesn't matter where we start, a high page rank says that the probability is high for that wepage
+		Use notion of a Markov Chain
+			Not all random walks are markov chain
+			a Markov Chain is memory less, only matter what current states is. Can be used infintely.
+			Doesn't depend on its previous paths. Only the current state matters
+			Sum of probability is 1 for a row.
+			Can leave any state and go to to another one
+			
 		P_1 is the new choices when in a sink node
 		the row of <0> will be turn in a uniform distribution for all other nodes
-		P_1 is good and makes it into a Markov Chain, however, needs to improve to make it into a Erogdic Markov Chain ( which will have a Stationary Distribution
+		P_1 is good and makes it into a Markov Chain, however, needs to improve to make it into a Ergodic Markov Chain ( which will have a Stationary Distribution)
 		Plan was to two option before checkign a link a chance of jumping around and a 1-a chance of picking a Hyperlink
+		E_N is a uniform distribution to all nodes for each row
 		P_2 =(1-a)[P+1] + a[E_N]
+	Continue(Idea of Ranking)
+		Distribution Vector is a vctor X^t that shows that for every state in a Markov Chain, the probability of being in any of the state in time t
+		Limits exist in an Ergodic Markov Chain. Will give a simple Distribution vector
+		A simple random walk is not a markov chain
+		if the random walk is a ergodic markov chain, then there is a limit probabilities
+		a is a small probability of jumping to another state(webpage)(for google the a is 15%)
+		[P_1] includes the sink adjustment from [P]
+		[P_2] =(1-a)[P+1] + a[E_N]
+	How to find page rank of page rank distribution
+		
+		x^1 = x^0 [P_2]
+		x^2 = x^1 [P_2]
+		*****
+		until there is
+		\pi = \pi [P_2] this is the probablity distribution
+	Definition of PageRank
+		input
+			a directed Graph G with n Nodes
+			a jumping probabilitya
+		compute
+			G will be turn into a transition matrix P
+			P to P_1 to handle sinks
+			P_1 to P_2 to handle jumping probability
+		Definition
+			The pagerank of G is a stationary distribution \pi such that \pi = \pi [P_2]
+	Computing PageRank
+		A couple of ways for small networks
+		if a is small, answer is close to a natural random walk
+		if a is large, a mor efficient stationary distribution
+		d is the damping fact, its just d = 1-a and a = 1-d
+		need to solve equation
+		with  a \pi [P_2] and sum of \pi = 1
+		sum of \pi is required for distribution vectors
+		if N is small enough, can solve it with high accuracy.
+		Not practical for 19 billion variables
+		Main method is the power iteration method
+			start with some \pi^0 and iterate until desired accuracy is attained
+			\pi^0  can be a uniform distribution vector as  a good start
+		Google needs about 100 iterations, efficient for computing page ranke
+	How often do they compute it?
+		Once a week is enough. Some special technique to calculate this for slight adjustment
+		Google uses logarithm, is good to change values of small numbers into logorithms
+		Special algorithms for sparse matrices
+		Special algorithms to avoid total re-computation of station vector
+		google uses a special starting vector. It doesn't affect mathematical nor computation apsects, but allows google to slightly manipuate ranks
+	Convergence
+		the rate of convergence is determined by the second eigenvalue \lambda is about 1-a
+		Accuracy
+			if e is dsirced accuracy, then the number k of iterations is determin by (1-a)^\lambda \leq e
 		
