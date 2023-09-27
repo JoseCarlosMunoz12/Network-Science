@@ -1,0 +1,75 @@
+September 27, 2023
+
+Week 5 Lecture 2
+Similarity
+	Recap-Jaccard Coefficients-hamming Distance-Edit Distance
+		Measure Similarity in networks.
+		jaccard Coefficients - similarity of two set of objects
+			How to detect if two webpages are duplicates
+			Google and Yahoo and Bing search enginess check to see if a page is a duplicate with Jaccard Coefficients.
+			J(A,B) = \size of intersection of A and B
+			devided by size of union of A and B
+			The Larget Jaccard Coefficient will be the most similiar of two sets
+			Set A = {c,e,f, i,j,m,o,p,q, s,t,u,y}
+			|A| = 13,|B_1|=8,|B_2|=9,|B_3|=9
+			J(A, B_1) = |3| / |18|=0.167
+			J(A, B_2) = |6| / |16|=0.375
+			J(A, B_3) = |4| / |18|=0.222
+			B_2 is the most similar
+			Union(A,B) = |A| + |B|+ Intersection(A,B)
+		Hamming Distance
+			Measure of Similarity between String of the same length
+				#number of position in whic ther is different
+				ex
+				H(London, Boston) = 3
+				London
+				Boston
+				X_XX__ = 3
+			S =   0101101000
+			S_3 = 0010110001
+			S_1 = 0101010101
+			S_2 = 1010101010
+			H(S,S_1) = 10-5 = 5
+			H(S,S_2) = 10-5 = 5
+			H(S,S_3) = 10-6 = 4
+		Edit Distance
+			ED(pcrarot,carrot) = 3
+			ED(pcrarot,parrot) = 2
+			ED(pcrarot,tarot) = 3
+	Read power point about Similarity
+Recommender Networks
+	Bipartate Newtork
+		has user and items
+		user is related to some item and other user are related to other items. each user ranks the item according to thier liking
+	Ratings
+		such networks are augemented with labeling all edes by numbersL a number assigned to an edge connecting a user and an item is a rating given by the user to the item.
+	Recommder system are based on a technique called collaborative filtering. The recommender network is use to make a prediction for a given user: which of the items will the user like
+	there are two forms of collaborative filtering
+		user to user form
+		item to item form
+		
+	How to calculate similarity on users?
+		The profile of our items are similar Is the item is bought by a set of user and such sets are similar, then we can predict what a user can use
+	User to User Collaborative Filtering
+		A typical table is spare: most entries are empty
+	Inderct ratings
+		Entries in the table may have various inteptreation, not necessarily explicit rating.
+		ex as in amount of time a user stays on a channel a week.
+	Normalized Ratings
+		it is common to normalize entries in recommender tales. an empty entry is replaced with 0
+		Typically , there is a big difference between user in thier average ratings
+	Profile
+		Each user can now be set with some vector to describe what they want, a profile
+		so a user has a vector X^T
+	User to user collaborative idea:
+		step 1 Find a user V whose profile is similar to profile U.
+		step 2 Find an item that has high rating given by V, but not yet being rated by U. Recommend I to U
+		the assumption is that U and V are siilar states in the past, then they will have similar opinions in the future
+	Similarity in Euclidean Space
+		Euclidean distance or cosine similarity
+		Cosine similarity is better than the Euclidean distance for finding similarity
+		3,3 - 1,-2 = 2,5 = 4 + 25 = 29 = \sqrt(29)
+		not good in recommender system, we need direction not magnitude of distance. Direction shows taste
+		just a dot product
+		sim(X,Y) = X*Y/|X|*|Y|
+		
