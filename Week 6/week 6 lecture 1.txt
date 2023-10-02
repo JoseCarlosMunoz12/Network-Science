@@ -42,10 +42,52 @@ Presentations For Grad Students:
 	learn some advance topics of network science
 	group of 2 students
 	Topics examples to do:
+		Networks of Game of Thrones
+		Final Fantasy XIV networks of characters
+		marvels netowkrs
+	Plan, me being predictable
+		Network of dinosauria/Pterosaurs
+		Diveristy of Traissic to sudden death to show survivability
+		Survivabililty of Mass Extinction
+Modularity in NetworksI(Homophiliy and Modularity)
+	Homophiliy-
+		is the principle that individuals tend to associate and bond with siilar otherrs.
+		assortative mixing- also for homophily
+		like people attract like interest
+	Rarely people form nodes wth dissamilir nodes
+	these networks are called dissarortative mixing
+	Colored Graphs
+		each node has its own color and represent 
+	Modularity is wha we deinfe as the measure of of hte level of homophily
+	0 is no homophily, positive means its a assortative mixing, negative is disassortative mixing
+	Def
+		Need to define modularity for each community
+	Q_i is define as
+		the actual fration of edges that have both endpoins colored with i
+		expected fraction of edges that have both endpoints colored with i if the vertices were colored randomly
+	we will define Q_i as the difference betwen thes fractions
+	ex
+		Actual Fraction
+			e_b = 3/12, e_g = 3/12, e_r = 4/12
+			there is 12 eges in graph and each group has some number of edges connected
+		Expected Fraction
+			a_i = k_i/2m
+			k_i sum of degrees of all vertice colored with color i
+			a_i^2 considered fraction between community. probability that a random edge is inside community i
+			Q_i = e_i - a^2_i = e_i - \frac{k_i}{2m}^2
+			m is the total number of edges in the color graph
+			k is he sum of he degrees of all vertices colored with color i
+			e_i is he fractin of edges having both endpoints colored with color i
+		Q_b = \frac{3}{12} - \frac{7}{2*12}^2
+		Q_g = \frac{3}{12} - \frac{7}{2*12}^2
+		Q_r = \frac{4}{12} - \frac{10}{2*12}^2
+		Q = 0.49 \SUM{q_i}{i\contain colors}
 		
-	
-	
-	
-	
+	ex
+		e_r =\frac{3}{7}
+		e_b =\frac{3}{7}
+		k_r = 2 + 2 + 3 = 7
+		q_r = \frac{3}{7} - \frac{7 }{2 * 7}^2
+		q_r = \frac{3}{7} - \frac{1}{2}^2
 	
 	
