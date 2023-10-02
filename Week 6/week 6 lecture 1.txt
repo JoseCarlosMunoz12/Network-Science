@@ -1,3 +1,26 @@
 October 2, 2023
 Recap of Last week
+	How to Find similarity in a recommender network
+	In a recommender network a user has a vector of items. Each item is ranked for each user
+	A collaborative filtering = compare user to each user and see which has the most similar vector. Assumption is that the likes and dislikes are constant so each similar user will want or get the same item.
+	Two forms of collaborative filtering:
+		user to user form
+		item to item form
+	Presentations to do, yay
+	Modularity Networks
+Recommender Networks (cont.)
+	a vector in this is a row vector. Each user gives a ranking to each item (no ranking if there is none)
+	Normalized ratings, an empty ranking is 0.
+	to predict what user will prefer, find similarity of each user to them.
+	
+	Step 1
+		Find a user V whose prfile is similar to profile of U
+	Step 2
+		Fint and item that is a high rating given by V but not yet chosen by U (an empty / 0 weight)
+	sim(U,V) = \frac{U * V}{||U|| * ||V||}
+	Cosine similarity is the main method used to measure similarity
+	ex
+		sim(u1,u3) = -0.16 sim(u1,u4) =  0.66
+		sim(u1,u5) =  0.17 sim(u1,u2) =  0.27
+		user 4 is most similar to user 1
 	
