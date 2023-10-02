@@ -23,4 +23,29 @@ Recommender Networks (cont.)
 		sim(u1,u3) = -0.16 sim(u1,u4) =  0.66
 		sim(u1,u5) =  0.17 sim(u1,u2) =  0.27
 		user 4 is most similar to user 1
+	find item with highest item. If the user already ranked it, don't recommend it.
+Item to Item Collaboratie Filtering
+	Applied to columns not row
+	Find an item that is highly rated by U
+	find an item J that is similar to I and not yet being ratd by U
+	ex1
+		u1 higest rating is I6 (get its column vector)
+		find item that is most similar to I6
+		cosine simularity.
+	ex2
+		Find and item I such that
+		Ther is no edge between U and I
+		the item has the maximum number of 3 step chains to U
+		Recommend I to U
+		read about the chain method for recommending system
+Presentations For Grad Students:
+	learn some advance topics of network science
+	group of 2 students
+	Topics examples to do:
+		
+	
+	
+	
+	
+	
 	
