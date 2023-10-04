@@ -35,4 +35,29 @@ Modularity Maximization
 		2)for each node, calculate how much modularity woud change if that node were moved to the other group
 		3)choose a node with the maximum increa of the modularity and move it to the other grouo
 		4)repeat steps 2 and 3
+	Approximation Algorithm
+		read section 14.2.3 adn 14.2.4
+		the algorithm uses the relaxation method, which is a standard technique in solving discrete optimization problem
+		Relaxation method
+			considered real number, and then we ronud the real number to integers.
+			In the ase of two communites, the algorithm works witha special matrix of size nxn and computesits leading eigenvector. then the algorithm assigns nodes to communites according to the signs of the elements in this vector
+			its better than the greedy algorithm
+		The Louvian Algorithm
+			its stars with single node grpups, each node forms its own group
+			then the algoirthm merges groups into larger ones. each step, the algorithm performs a merge that most increases the modularity and repeats this procedue until no furhter increase is possible.
+			read section 14.2.5
+			Nauty package contains task for graph functionanility
+		Limit for Modularity maximization
+			cannot see communites in a network if they are too small, relative to the size of the network as a whole
+Other Approcheas to Community Detection
+	Betweenness and Hierachical Clustering
+	Betweenness based Methods
+		Measured how many people pass throught it. See who controls over the shortest path.
+	Bridge like links
+	a netowkr is an island , possibl connected with other islands by a few bridges
+	Have to identify bridge lik edges that lie between them
+	
+	
+	
+	
 	
