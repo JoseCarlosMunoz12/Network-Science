@@ -1,0 +1,38 @@
+Ocotber 4, 2023
+Recap
+	past fwe weeks learned about centrality
+	last class, learn about modularity of graph networks
+	Closeness is measure of centrality
+	Modularity is measure of Homophily
+	Homophily is tendency of connections of similar nodes.
+	Modularity use to measure Homophily of graph
+	1 means we have edges of similar nodes, none with dissimilar nodes
+	0 means that there is no homophily. Edges have nothing to do with communities
+	negative means we have edges of people with dissimilar nodes.
+Community Detection Part 1
+	there is a network and we have to find communities in the network
+	Netowkr of coauthorships in a univeristy department
+	the problem of fiding groups of nodes callec community detection
+	Will need to find algorithm to find these communities(clusters)
+	Understand approaches of these algorithm and main ideas on these community detection
+	informally
+		Given a network, devide it into grousp of nodes, called communities such that there are many edges within groups and a few edges between them
+	what we mean by many and few?
+	Major Approcheas
+		definition in terms of modularity maximization
+		definition in terms of edge betweenness
+		definition in terms of hierarchical clustering
+Modularity Maximization
+	fint its partition into communites that maximizes the modularity
+	Complexity, this is an NP-hard. The cost of the computation is really high.
+	Main approchas are approximation. Can't find best, but we can find some that are high modularity. Find not the best but find the high solution.
+	Probabilistic algorithm.
+		Monte Carlo
+	Can't solve for general, but we can solve it for special types.
+	Huerstic algorithm-also known as greedy algorithm
+	Example of Simple Greedy Algorithm for partition a graph into two groups
+		1)start with a random parition intwo two groups
+		2)for each node, calculate how much modularity woud change if that node were moved to the other group
+		3)choose a node with the maximum increa of the modularity and move it to the other grouo
+		4)repeat steps 2 and 3
+	

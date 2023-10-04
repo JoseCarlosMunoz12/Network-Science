@@ -51,7 +51,7 @@ Presentations For Grad Students:
 		Survivabililty of Mass Extinction
 Modularity in NetworksI(Homophiliy and Modularity)
 	Homophiliy-
-		is the principle that individuals tend to associate and bond with siilar otherrs.
+		is the principle that individuals tend to associate and bond with similar otherrs.
 		assortative mixing- also for homophily
 		like people attract like interest
 	Rarely people form nodes wth dissamilir nodes
