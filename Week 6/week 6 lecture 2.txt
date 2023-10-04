@@ -54,10 +54,11 @@ Other Approcheas to Community Detection
 	Betweenness based Methods
 		Measured how many people pass throught it. See who controls over the shortest path.
 	Bridge like links
-	a netowkr is an island , possibl connected with other islands by a few bridges
-	Have to identify bridge lik edges that lie between them
-	
-	
-	
-	
+		a netowkr is an island , possibl connected with other islands by a few bridges
+		Have to identify bridge lik edges that lie between them
+		What is a bridge like links
+		sectionFlows- a netowkr is viewed as a set of nodes connected by paths along whcih something flows. edges that are like bridge expected to have high values of the edge betweenness
+		Find edge with hieghest betweens, cut it, if there is none to remove, taht is an island
+	Grivan-Newman Algorithm calculates edge betweens with BFS for each node
+	Each step calculate calculate edge betweeness of each node, reuse calculation next step
 	
