@@ -1,0 +1,13 @@
+Week 7 Lecture 1
+October 9, 2023
+Community Detection
+	We have only graph, will want to know which of these nodes are groups.
+	each group has many edge within its members, each group has very few edges betweens other groups
+	How to define many and few?
+	there are some approaches to find these clusters.
+	what are the approaches of these
+		In Terms of modularity
+		In Terms of betweenness
+			Find the Edge that has Highest betweenness, cull it and then continue.????
+			Higher betweenness, its a bridge to another group. Cull it and continue with algorith for some amount of iteration
+		In Terms of Hierarchical Clustering
