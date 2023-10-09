@@ -7,7 +7,27 @@ Community Detection
 	there are some approaches to find these clusters.
 	what are the approaches of these
 		In Terms of modularity
+			Modularity is the measurement for Homophily
+			range between -1 and 1
+			0 means that there is no Modularity and the class is not dependent
+			Is good, but it is an NP problem.
+			Doesn't give the best method, but it gives the locally best result
 		In Terms of betweenness
 			Find the Edge that has Highest betweenness, cull it and then continue.????
 			Higher betweenness, its a bridge to another group. Cull it and continue with algorith for some amount of iteration
 		In Terms of Hierarchical Clustering
+			Also as finding the similarity of each group.
+Hierarchical Clustering
+	Idea
+		Graphs start with single node group, if some of these groups are similar, we merge them. Then we continue the process
+	How does on define similarity?
+		Shortest path distance
+		Similarity for nodes repressented by rows of the adjacency matrix
+		Similarity for nodes repressented by thier neighborhood subgraphs
+	Now need to decide measure similarity of each of these groups
+		Define by best similarity of each group
+		Complete linkage similarity
+			the similarity is defined by the least similar pair of nodes
+		Average-linkage similarity the similarity is defined by the mean similarity among all nodes
+	Read about hierarchical clustering method in Section 14.5.2.
+	Read 14.5
