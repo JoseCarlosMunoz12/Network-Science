@@ -31,3 +31,31 @@ Hierarchical Clustering
 		Average-linkage similarity the similarity is defined by the mean similarity among all nodes
 	Read about hierarchical clustering method in Section 14.5.2.
 	Read 14.5
+Transitivity And Clustering Coefficients
+	How to measure some properties of the Graphs
+	Main applications are in biological networks to find groups and clustering
+	Another applications is in sociology to see how groups they are in and how they interact with each other.
+	What is the graph about
+	Modeling real workd networks with Graphs
+		Graphs are expected to mimic the properties of the networks: connectivity, distances between nodes, degree distribution, etc.
+		do they have any common properties?
+		how arebitrary can they be?does any graph can be the underling graph of a real world networks?
+	Ansewr to both are no.
+	Describe an underlyihg graph of a ereal wold networks
+	A Random Graphs
+		Two definitions of a Random Graph
+			1) The G(n,p) model
+				havce n vertices and we place and edge between eah pair of distinct vertices with independent probability p
+			2) the G(n,m)model
+				we take n vertices and we choose m pairs of vertices uniformly at random fraom all (n2) pairs of distinct vertices.
+				Then we connect the vertices in each chosen pair by an edge
+	the G(n,p) mosel is much more widely studied.
+	can we have a random graph with no edges?
+		possible, but the chances are so low that we can say no.but chances are unlikely
+	The expect number of edges in a G(n,p) graph
+	pair(n | 2) * p
+	(n | 2) = n(n-1)/2
+	so E(G(n,p) = np*(n-1)/2
+	The Expected degree of a random graph. 
+		(n-1)* p is the expected degree for each vertex
+	
