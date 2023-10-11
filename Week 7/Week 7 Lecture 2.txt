@@ -50,4 +50,12 @@ Random Graphs Recap
 			C_4 = \frac{2 *1}{2(2-1)}=\frac{1}{1}
 			C_5 = 0
 			C_6 = \frac{2 *1}{2(2-1)}=\frac{1}{1}
+	Questions
+		there seems to be some correleation of betweeness and clustering there is a high correlation of betweenness and local clustering
+		which holds?
+			for node i, the higher the clustering coefficient of i is, the higher the betweeness of i is
+			for a node i, the lower the clustering coefficient of i is, the higher the betweenness of i
+		The second might makes more sense? ignoring the no edges, information must pass through node I to get to the other nodes. If the transitivity was high, then the information can skip node i to pass informatin.
+		
+		
 		
