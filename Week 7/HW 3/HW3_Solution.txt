@@ -1,0 +1,28 @@
+1)
+H(a,b) = 4
+H(a,c) = 3
+string a and c are the most similar becuase they have the lowest hamming distance
+2)
+\alpha has a total of 10 elements
+\beta has a total of 11 element
+\lambda has a total of 12 element
+J(\alpha, \beta) = \frac{\alpha\cap\beta)}{\alpha\cup\beta)}
+\frac{7}{14} = .5
+J(\alpha, \lambda) = \frac{\alpha\cap\lambda}{\alpha\cup\lambda}
+\frac{8}{14} = .571
+\alpha and \lambda are the most similar because they have the highest Jaccard coefficient
+3)
+E(human, animal) = 4
+E(human, plant) = 4
+Both animal and plant have the same similarity to human because their edit distance is 4 for each
+4)
+X*Y = 1 * 0 + 2 * 2 + 2 * 0 = 4
+X*Z = 1 * -2 + 2 * 2 + 2 * -1 = 0
+|X| = \sqrt(1^2 + 2^2 + 2^2) =\sqrt(1 + 4 + 4 ) =\sqrt(9) = 3
+|Y| = \sqrt(0^2 + 2^2 + 0^2) =\sqrt(0 + 4 + 0 ) =\sqrt(4) = 2
+|Z| = \sqrt(-2^2 + 2^2 + -1^2) =\sqrt(4 + 4 + 1 ) =\sqrt(9) = 3
+S_C(X,Y) = \frac{4}{3 * 2} = \frac{2}{3}
+S_C(X,Z) = \frac{0}{3 * 3} = \frac{0}{9}
+Vector Y is the most similar to Vector Z. This is becuase the cosine value of S_C(X,Y) is much greater than S_C(X,Z)
+5)
+6)
