@@ -29,9 +29,25 @@ Random Graphs Recap
 		if we apply this to a co-stardom network since we know both m and n, p becomes 0.0003
 		So a random graph model is not a right model for real-world networks
 		in real world networks, the level of transitivity is pretty high, compare to random graph. Proof that random graphs are not an adequate graph for representing the real world
+	Local Clusetering Coefficients
+		in local clustering is a measure of each node the level of transitivity based on its neighbors
+		for every node i, we dfine a local clustering coefficient C_i as
+			if i has at most one nieghbor, then C_i = 0
+			else
+				C_i = number of pairs of nieghbors of i that are connected/ number of pairs of neighbors of i
+		if we have 4 nieghbors, we have 4 choose 2 pairs
+		C_i = \frac{# of actual pairs of nieghbor}{ n Choose 2}
+		n Choose p = \frac{n!}{k!(n-k)!}
 		
-		
-		
-		
-		
+		An equivalent definition is 
+		C=  { 0 if d <= 1
+			{\frac{m_i}{d_i(d_i-1)}
+			m_i is the number of edge between the nieghbors of i. D is the degree of I
+			C_1 = \frac{2 * 3}{ 4 ( 4-1)}
+			=\frac{2 * 3}{4 * 3} = \frac{1}{2}
+			C_2 = \frac{2 *2}{3(3-1)}
+			C_3 = \frac{2 *2}{3(3-1)}=\frac{2}{3}
+			C_4 = \frac{2 *1}{2(2-1)}=\frac{1}{1}
+			C_5 = 0
+			C_6 = \frac{2 *1}{2(2-1)}=\frac{1}{1}
 		
