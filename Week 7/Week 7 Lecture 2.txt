@@ -1,0 +1,37 @@
+October 11, 2023
+Random Graphs Recap
+	To model a network, what type of graphs can be used?
+	A random graph can be an option.
+	Random graph G(n,P), G(n,m)
+	g(n,p) n for number of nodes, and p is the probability of an edge occuring.
+		the expected amount of edges are p*n(n-1)/2
+		the expected amount of degree for each node is p(n-1)
+		the expected diamter is ln n ln(expected degree)
+		the diameter of a giving graph is the maximum distance of a nodes in the graph
+	g(n,m) n is number of nodes and m is the number of edges it could have
+		Assume all possible graphs with n vertices and m edges. Choose any one of those at random
+	for the first Graph, there is a unkown amount of edges in the graph, the second one is that we know the amount of edges
+	Random Graphs are not a good model for real world networks
+	Transitivity and clustering Coefficients
+		Measure of closeness, betweeness and eigenvector coefficitnes
+		like how modularity is used for homophily
+		Idea:
+			the idea of transitivity in networks can be informally expressed as "the friend of my friend is likely my friend too"
+		We will define clustering coefficients that measure the level of transitivity
+	Clustering Coefficients
+		C = number of closed paths of length two/ number of paths of length two
+		Clusetering coeffictions of a graph is the fraction of paths of length two that are closed
+		the clustering coefficient can be thought of as probability that two people with a common friend are themselves friends.
+		what are the odds nodes of w (who is connected with v and v is connected to u) also is conndcted with u
+		Clustering coefficient of random 
+			coefficient of a random graph (G(n,p)) is just p
+		p = 2<m>/ n (n-1) where m is the number of expected edges
+		if we apply this to a co-stardom network since we know both m and n, p becomes 0.0003
+		So a random graph model is not a right model for real-world networks
+		in real world networks, the level of transitivity is pretty high, compare to random graph. Proof that random graphs are not an adequate graph for representing the real world
+		
+		
+		
+		
+		
+		
