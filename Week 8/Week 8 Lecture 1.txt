@@ -1,2 +1,13 @@
 October 16, 2023
-Week 8 Lecture 1
+
+Small World(Six Degree of Seperation)
+	Distance Between people
+		Distance in netowrk: distance is shortest path of node u to v
+		Distance in social networks:
+			typical distance between people in social networks are very small
+		Milgram's small world expirement
+			First expirement of small workd phenomenm
+	The Expirement
+		random people got letters and asked to forward it to someone, but only able to pass it through someone they know(first name basis)
+		Each person recored who they were and information and sent to next person
+		6
