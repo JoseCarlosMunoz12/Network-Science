@@ -51,7 +51,22 @@ Local Edge Ditance
 	l(u) a distance from two nodes by only local edges, ignore all shortcuts
 	any vertex u has a neighbor v that l(v) < l(u). this neighbor is closer to target than u. in the local edge metrix.
 	the message holder knows l(u) for every node u
-	
-	
+Myopic Search Algorithm
+	send a message to a neighbor closer to the targer(based on l(v). don't know any shorcuts, just the l(v) of neighbor
+	there can be shorter paths, but since we don't know what the other node paths are, it can be possible that there is a shorter path.
+Analysis of Myopic Search
+	Is it Efficient?
+		Not for all small world netowrks. it depends on how we add shortcuts. The worst case scenerio of delivery time is O(n). were n is the number of nodes in the networks
+	Solution is to choose a different method of adding shortcuts to the spart and high transitivity graph
+	O(log^2 n) would be a ideal delivery time
+The modificatin is the Klienberg's Model
+	The shorcuts are added to local distance of nodes
+	if local distance is high, we add a shorcuts to it.
+	we add a shorcut from one nodeo another with a probability of distance ^\alpha. where \alpha is a positive value
+	how big should \alpha be?
+	if too big, the shorcuts willl b added that are not long enough to creat a small world
+	if too small, the shortcuts are long enough, but but be used for decentralized search
+	\alpha depends on the graph.
+		
 	
 	
