@@ -2,7 +2,7 @@ October 16, 2023
 
 Small World(Six Degree of Seperation)
 	Distance Between people
-		Distance in netowrk: distance is shortest path of node u to v
+		Distance in network: distance is shortest path of node u to v
 		Distance in social networks:
 			typical distance between people in social networks are very small
 		Milgram's small world expirement
@@ -10,4 +10,48 @@ Small World(Six Degree of Seperation)
 	The Expirement
 		random people got letters and asked to forward it to someone, but only able to pass it through someone they know(first name basis)
 		Each person recored who they were and information and sent to next person
-		6
+		64 letters managed to reach it out of 296. the everage took 6 people to reach desire target
+	Facebook
+		in friends ciricle, it is determine that in the usa, it is 4 average distance and in world wide its 6
+	All real worled networks have a small distance of reach a random person in the network. network
+Two Results of Milgram's Expirement
+	1) Real world network have short paths between their nodes
+	2) people are good to find the shortest path in a network
+	Shortest path, A*, Dikstra is another graph, Directed graph only thouh
+	Indirected graph.
+	Breadth First is the standard algorithm for Undirected Graph
+	while good, it only works if we know global information. 
+	
+	Myopic Algorithm, find shortest path using only local information- A decentralized algorithms.
+	klienberg's model of message passing. This model specifies a subclass of small-world netowrks.
+Model Small-world Networks
+	Sparse Graphs with high transitivity
+		real world networks need to be
+			1) sparse: means that they have relatively small number of edges
+			2) they have high transitivity: means that its global and local clustering coefficients are high
+	Transitivity-Two of my friend are friends. How many nodes connecting to u are also connected to each other
+	Higher clustering coefficients, low betweeness
+	Grid graph, it is not sparse due to it needing to travel whole graph.
+	A sparse, high transitivity and show small-world property graph would be useful for a real world networks
+	A random graph can generate a  small world phenomenom. But it is not sparse, and have high transitivity?
+	Does it exist? No such graph exists that can have all of these properties
+A hybdrid model creation:
+	to generate a graph that has all of these properties
+	take a sparse graph with high transitivity, add a small number of edges to it.
+	new edges added to thse graph are shorcuts. We choose these new edges from u and v from a probability p.
+Decentralized Algorithm
+	Decentralized Search
+		given a small world network, a decentralized algorithm seeks to pass a message from a starting node s to a target node t by advancing the message along edges. in each step, the current message holder knows:
+			All nodes and all local between them
+			its own shortcuts
+		The delivery time is epected number of steps needed to reach the target over randomly chosen nodes s and t
+Local Edge Ditance
+	a myopic search algorithm is a greedy algorithm.
+	local edge distance
+	l(u) a distance from two nodes by only local edges, ignore all shortcuts
+	any vertex u has a neighbor v that l(v) < l(u). this neighbor is closer to target than u. in the local edge metrix.
+	the message holder knows l(u) for every node u
+	
+	
+	
+	
