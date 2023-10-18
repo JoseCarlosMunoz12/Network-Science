@@ -29,8 +29,61 @@ Degree Distributions
 			p_2 = 2/4=0.50
 			p_3 = 1/4=0.25
 			
-	represent the distribution in a histogram
-	
-	
+		represent the distribution in a histogram
+	Directed Graphs
+		in degree distribution and out degree are used in the Directed Graph
+		in degree distribution
+			P0 =0.25, P1=0.5, p2 = 0.25
+		out degree distribution
+			p0=0.25, p1, 0.5, p2= 0.25
+	Degrees in Random Graphs
+		In random graph, it is non ovbious on how to find the degree distribution
+		G(n,p) = n nodes, and p is probability of an edge occuring
+		p_k = \lambda^ke^-k/k!
+		it is using a poisson distributions
+		\lambda = pn
+		in a random graph, it is very close to a normal distribution. this means that most people are in the average value of  distribution
+		Bell Curve slot machine is an example of a normal distribution
+	Degrees in real world networks
+		Real World networks vrs random graphs
+		Key point
+			degree distributions in real world networks are very differnt from those random graph
+		real world networkss
+			contain much more hubs (nodes of high degree) than predicted by poisson distributions
+		if internet was random
+			dispersion would be 2.5s and max degree would be 20
+		in reality:
+			its real dispersion is 14
+			the maximum degree is more than 2400
+		a similar difference occurs in other real world network
+	Double Logarithm Plots
+		log log plots
+		Problem, when plotting a curve that includes very small and very large values at the same axis, difference between small values are indistinguishable
+		plotting in log for both axis, will help explain more what is going on
+		log log graphs are linear
+		cumulative distribution can be showin iwth a log log graph
+		Read 10.3 for more details
+Power Laws
+	Scale free Networks
+	power law holds for networks, city population and other networks
+	What is a Power Law
+		The curve on log scales is clsose to a straigh line in a log log graph
+		Degree distributions in most real world networks approximately follow power laws
+		pk is proportional to some degree of k
+		p_k - \sumCK^-\alpha
+		wher pk is the graction fonodes with degree k
+		C is the constant determined by the normalization condition
+		\alpha is a constant, typically between 2 and 3
+		power law is equivalient of logpk = c-\alpha log k
+		so logpk is linear in log(pk)
+		networks with pwoer law degree distributions are oftern called scale free networks.
+			scale free is rooted in theory of phase transitin, a branch of statistical physics.
+			in random graph, its natural that the degree is close to the average. 
+			but in a scale free one, we can not determine this expected value
+		
+		
+		
+		
+		
 	
 	
