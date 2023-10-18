@@ -84,7 +84,9 @@ Power Laws
 		not just in networks
 		Zipf Laws - occurance of words in languages
 			has an alpha of 2.2. The amount occurance words in the english languages is the
-			
+	power laws and the 80/20 rule
+		vilfredo pareto-notice that 80% of the weatlch in italy is in the hands of the richest 20%. the 80/20 rule follows from the power law distributions with an \alpha of about 2.
+		Lorenz Curve able to determine when 80% is own by a 20%
 			
 		
 		
