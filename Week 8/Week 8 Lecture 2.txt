@@ -1,0 +1,36 @@
+October 18, 2023
+This week will need to get basic properties of the Different Linux distros and have a determine what variables are important
+
+Klienberg's Model for having a Myopic Search.
+	Myopic Search is efficient enough, looks at local neighbors and determins which one is closest to the target (ignore thier path and shortcuts, since we don't know those). Keep going until we reach our destination
+	A good graph to represent a real world graph would require it to be
+		1) Sparse have a small number of edges. num of edges ar proportional to  number of nodes
+		2) High Transititvity - neighbors nodes are also are niehgbors to each other
+		3) show small world properties
+	A fourth properties is Degree Distributions
+		This property usually have some commercial application
+		Long tail, fat tail
+			*
+		80-20 rule- 80% of the work is done from 20% people
+Degree Distributions
+	What is a degree Distribution
+		let graph G and m be the maximum degree in G
+		for each l, p_k be the fraction of vertices in G that have degree k
+		the degree distribution is a sequence p_0, ... p_m
+		p_k is the probability that a random vertex in G has degree k
+		ex1
+			in a graph p_0 = 0.1 means that there is a 10% chance that a vertex has a degree of 0
+			p_1 = 0.2. means that there is a 20% chance that a vertex has a degree of 1
+			p_0,_1,2,3
+		ex2
+			there is 4 edges
+			p_0 = 0/4=0.00
+			p_1 = 1/4=0.25
+			p_2 = 2/4=0.50
+			p_3 = 1/4=0.25
+			
+	represent the distribution in a histogram
+	
+	
+	
+	
