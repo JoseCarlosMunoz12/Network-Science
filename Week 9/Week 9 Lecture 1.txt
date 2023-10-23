@@ -26,4 +26,10 @@ Power Laws
 	Have several hypothises on a formation of a network
 	The idea is that the property of a power law occuring is due to the formation off a netorowk
 Models of Network Formation
+	How did it form? Internet started with 13 computeres, now its millions and billion of nodes
+	There is two models that form netwroks with powe law degree
+	Preferential attachment and Copying model
+	Preferential attachment
+		two close variants of this model
+		verient for directed and an undirected one works right now.
 	
