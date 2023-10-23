@@ -88,6 +88,15 @@ Power Laws
 		vilfredo pareto-notice that 80% of the weatlch in italy is in the hands of the richest 20%. the 80/20 rule follows from the power law distributions with an \alpha of about 2.
 		Lorenz Curve able to determine when 80% is own by a 20%
 			
+	Closeness doesn't follow the power rule.
+		why? because we have small world phenomenon. So random distribution.
+		Eigen vector centrality and betweenes follow the power law
+		
+	Popularity and power law distribution
+		power law can be considered as a measureement of popularity
+		in distribution there are hits and niche.
+		hits are small number of extrememly popularity books that creat large revenues
+		niche books , a large number of unpopular books, each o which appeals to a small segmemnt of market.
 		
 		
 	
