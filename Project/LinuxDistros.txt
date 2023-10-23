@@ -1,1 +1,1 @@
-Name, parent, IsStable, Size, main usage, UI
+Name, parent, IsStable, Size, main usage, UI, performance,(add other parameters that make it useful)

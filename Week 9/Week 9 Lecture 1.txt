@@ -1,1 +1,23 @@
 October 23, 2023
+Degree Distrubition and Powe Law
+	What is a degree distribution of a networks
+		its the distribution of each nodes having some probability of it having a degree of k
+		A distribution is a vector. Sequence used more for a list of objects, a vector is more for numbers
+		Its a vector of numbers that each element is the frequency of a random vertex has a degree of the index
+	What can we see of a degree distribution.
+		if the values of each sequence are the same, the graph is regular
+		Most important ones are normal distribution and the power law distribution
+	The power law is the 80/20 rule
+	The power law can also be considered as a measurement of popularity
+	Using a log log, we see that the graph turns into a straight line for a power law distribution
+	In directed graph, we can use modularity. Modularity is more for undirected graph. the log log works well for both in and out degree movement
+	
+Power Laws
+	Main observation
+		pk = Ck^-\alpha
+		pk is proportional to k
+		p+k is the graction of nodes with degree k
+		C is a constant determined by the normalization condition.
+		\alpha is a constant, typically between 2 and 3
+	Scale free networks, the probability of a degree doesn't not dependon the network
+	
