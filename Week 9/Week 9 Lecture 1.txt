@@ -20,4 +20,10 @@ Power Laws
 		C is a constant determined by the normalization condition.
 		\alpha is a constant, typically between 2 and 3
 	Scale free networks, the probability of a degree doesn't not dependon the network
+	Why are power law graphs used alot?
+		All real world network are create form small networks to large networks
+		Similar to many biological, mechanical, etc, its build step by step. This could explain the method of a power law occuring. this is called network formation
+	Have several hypothises on a formation of a network
+	The idea is that the property of a power law occuring is due to the formation off a netorowk
+Models of Network Formation
 	
