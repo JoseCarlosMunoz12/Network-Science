@@ -1,0 +1,21 @@
+October 25, 2023
+Models of Network Formation
+	Two types of model
+		Preferential attachement
+		Copying model
+	Preferential Attachement model
+		Distribution of wealth also show a power law model
+		why?--capitalism, the exploitation of power.
+		H Simons sys that rate propotional to how much they currently have is based on your income already.
+	The barabasi-Albert Model
+		initital netowrk
+			start with a small one
+		Growth
+			each new node is connected with already existing node with some probabilitistic mechanism. Its called preferential attachement
+		Any new node can connect to existing node. But the probability of connecting to an existing node i is propotional to its degreee k_i
+	More Formally
+		Init Net -> stat with a netowrk that has m_0 nodes.
+		Growth-> add new nodes on by one
+			each node has a p(i) a probability that is is chosen for connecting to the new node.
+			p(i) = \frac{ki}{\sum_i(k_j)}
+		
