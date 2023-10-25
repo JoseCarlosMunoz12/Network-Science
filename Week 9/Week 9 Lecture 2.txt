@@ -55,7 +55,10 @@ Models of Network Formation
 				for each i = 1, m
 					eaither probability y creat a link from u to w
 					or else, with probability 1- y, creat a link from u to a node chosen uniformly at random from existing nodes.
-	
-		
-		
-		
+		normal distribution is the average of independent different decision, copying has few independent decision
+	Information Cascades-Following the Crowd
+		cascades can be wrong, if the crowd is followed
+		They are also easy to change if new information comes along
+		13.1-13.2 13.5
+Signed Edges and Balanced Edges
+	for each edge we have two signs either + or -
