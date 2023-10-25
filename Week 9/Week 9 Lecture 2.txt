@@ -17,5 +17,45 @@ Models of Network Formation
 		Init Net -> stat with a netowrk that has m_0 nodes.
 		Growth-> add new nodes on by one
 			each node has a p(i) a probability that is is chosen for connecting to the new node.
-			p(i) = \frac{ki}{\sum_i(k_j)}
+			p(i) = \frac{ki}{\sum_j(k_j)}
+	Power Law Degree Distribution
+		it wa sprovedhat netowrks formed using the barabasi-Albert model have a power law degree with \alpha 3
+		the degree is independent of m and m_0
+		it also shows that iteration doesn't affect the degree distribution. So it i sstationary
+		Preferential Models are sometimes called rich get riche model
+	Price's Model
+		p(i) = \frac{a + k_i}{ \sum_j(a + k_j)}
+		each node has a positive constant a called the attractiveness parameter
+		This nodes it is not required that each new node is connected to the same number of existing nodes.
+		this model gives rise a similar power law in dgree distribution
+	Non Linear Preferential Attachement
+		we assume that thexisting node i with probability propotional to the weight of i, why?
+		Answer
+			assume that a new nodes existing node i with probability propotional to ki^d then
+				if d<1 then hubs do not apear 
+				if d > 1 then thaere is only one supe hub
+			in real world these things don not occure, therefore, we can say that node i is proportional to the weight of i
+	is the assumption reasonable?
+		the assumption makes sense for netowks where the degree of a node can be beiwed as a measure of the nodes' popularity
+		it is not obvious why the assumption holes true for the technological and biological networks.
+	Copying Model-Duplicatoin with Mutation
+		idea
+			As in preferential attachement models, we build a netowk step by step, with a small inital network.At each ste[ a new node coness to some existing node
+			A new node links one of the earlier nodes. We copy (slight changes) the links created by one of the earlier nodes.
+		Duplicatoin with mutation is shown in section 13.5
+	The copying model
+		Init network
+			a small directed network.
+			for simplicity, we assume that every node in this network has a fixed out degree, letm be this out degree
+		Growth
+			Add new nodes one by one
+			for each new node u, choose uniformly at random an existing node v
+			use the following probalistiic mechanism
+				choose uniformly at random an eistn node v
+				for each i = 1, m
+					eaither probability y creat a link from u to w
+					or else, with probability 1- y, creat a link from u to a node chosen uniformly at random from existing nodes.
+	
+		
+		
 		
