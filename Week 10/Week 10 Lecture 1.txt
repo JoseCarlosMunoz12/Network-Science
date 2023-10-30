@@ -75,8 +75,15 @@ Strength of Ties
 	Other Measures of Bridgeness
 		\frac{num ofnodes that ar neighbors of u andv}
 		{number of ndoes that are neighbosr of least one of u and v}
-		
-		
+		how does the neighborhood overlap of edge depent on its strength
+		expl show that the neighborhood overlap grows as edge strength grows
+		how the number of a user's strong ties depend on the number of followers
+	Structural holes
+		Ebdeddends nodse
+			has many friends and many strong ties. Almost no weak ties. in the even of misbheavior by one of the such nodes, there is the potential for reputational consquenes frome friends
+		Structural Holes
+			innovations often arise from unexpected combinations of inofrmation from different sources.
+				social gatekeeping.
 		
 		
 		
