@@ -52,8 +52,32 @@ Signed Edges and Balanced Edges
 Strength of Ties
 	Considred networks that each edge is label with a number that show the relationship between them
 	Close Friends and Distance Aquiantences
+		Some edges in social networkds are strubger than others.
+	Bridge like links
+		we considered networks in which can be classifiged as storn or weak., in suck networks, bridge like links must be weak
+		How does one measure the value of a bridgeness?
+			Important information came from distance relationship than from friends
+	How to measue strength of ties
+		ties between close friends are viewd as strong
+		ties between distant acquaintances are viewd as weak
+		We measure strength based on communication
+		A simplified model is that a tie is either s or w
+		Bridge like links are typically wek ties, nost strong ones.
+			section 3.4 explains the verification of the experiment
+		weak ties are importatn for spreading information across communities
+		local brides is an edge if it spant at lest 4
+		a span if (u,v) is the distance from u and v if we remove the edge of (u,v)
+		Local bridge if its span is at least 3
+	Triadic Closure Principle
+		Let A be a not ind a netowrk. we say that A satisfies the Triadic Closure Principle if for any two nodes B and C
+		edge AB and AC are strong then the must be an edge BC (labeld as strong ork weak)
+		if A satisfies the triadic closure principle, any local bridge from A must be a weak tie
+	Other Measures of Bridgeness
+		\frac{num ofnodes that ar neighbors of u andv}
+		{number of ndoes that are neighbosr of least one of u and v}
 		
-
-
-
-
+		
+		
+		
+		
+		
