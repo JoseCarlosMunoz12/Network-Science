@@ -1,0 +1,29 @@
+October 30, 2023
+Week 10 Lecture 1
+Signed Edges and Balanced Edges
+	Signed Graph
+		A networkd each edge is lableld with one of the two signes, + or -
+		Also as frienship enemies
+	Four types of trianles
+		in a signd graph, ther are four possible variants of triangles
+		Triangles with 3 plus, its a stable
+		trianles with 2 enemies and 1 friend, its considered stable
+		triangles with two friends and one enemy is a stress and tension
+		Triangles with 3 enemies, also unstable. two of them are motivated to team up against the third
+	Balanced and unbalanced
+		The first two triangles are balanced, the other two are unbalanced
+		Since unbalanced triangles are sources of stress and tesnion, people strive to minimize that
+	Structural Balance Property
+		if G is a signed graph, where each triangle is balance, we say that it is balanced graph. we also say that g has the structural balance property
+	Balance Therorem
+		if a singed complete graph is balanced, thn there are only two option
+			1) all edges are positive
+			2) the vertices are partitioned into two groups such that for every edge (u,v), the following Holds
+				if u and v are in the same group, (u,v) is +
+				if u and v are in different gorus (u,v) is -
+		Any complete balance graph can be represented as the above options
+	
+	
+	
+	
+	
