@@ -22,8 +22,38 @@ Signed Edges and Balanced Edges
 				if u and v are in the same group, (u,v) is +
 				if u and v are in different gorus (u,v) is -
 		Any complete balance graph can be represented as the above options
-	
-	
-	
-	
-	
+	Extension to the model
+		its usually not as simple as two groups
+		Some extension to thee model
+	Only one Unbalanced Triangle
+			assume that 1 neg and 2 + as a balance
+			
+	Weakly balance Graphs
+		def A signed graph is weakly balance if it has no trianles with two plus and on minus
+		So have several group of mutual friends
+	Balance for arbitrary graphs
+		we have to define what a balance is for arbitrary signed graphs
+	Two Equivalent def
+		def 1_ a signed graph is balance if it can be completed by adding labeled edges to form a signed complete graph taht is balanced
+		def 2) if it is possible to partitino its vertices into two group that for every edge (u,v) , the following holds
+			u and v are in the same group, then its +
+			u anv v are in different group, then its -
+	How to check to see if the graph can be completed.
+		The harary Theorem. a signed graph is balanced if an donly if it contains no cycle with an odd number of negative edges
+	Testing for Balance
+		to determine if a signed graph is balanced, the first step is to considered th only positive edges to find the connected componenet
+	Approximate balance
+		Setting for Balance Theorem
+		The signed graph is complete
+		all triangles are balance
+		can we weaken the second requirement? such that only 99% of all triangles are balance?
+		Read the theorem from the book
+		Section 7.5
+Strength of Ties
+	Considred networks that each edge is label with a number that show the relationship between them
+	Close Friends and Distance Aquiantences
+		
+
+
+
+
