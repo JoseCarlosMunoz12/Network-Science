@@ -16,7 +16,7 @@ Basics of Game Theory
 			Behavior: the otucome for any one node depends (Explicitily or implicitly on the combined behavrio)
 		Ex of game
 			Diffusion and network trafficing
-	Pay of Matrix
+	Payoff Matrix
 		Situation
 			you have two large pieces of workd due the enxt day, and exam and a join presentation with partner
 			you can eitehr study for the xam or prepare for the presentation, bu not both
@@ -26,5 +26,36 @@ Basics of Game Theory
 			P and E
 				if choose P, then both get 90,90
 				if you choose P and they chose E, then
+				[90,90 | 86,92]
+				[86,92 | 88,88]
+		Terminology
+			Players: you and your partner
+			Strategies: to prepare for the presetntaiton
+			Outcome: the combinde choise of strategies
+			Payoff: the average grade for a given outcome
+			Payoff Matrix: the table for payoffs
+		Definition and Notation
+			a normal form game <1,2,.., n>
+			a set of n players <S_1, S_2, ..., S_n>
+			a set of strategies
+			a payoff function
+			A Max Min / Min Max strategies to optimize once win
+		Famous Example is the Prisonerr's Dilemma
+			[-4 ,-4 | 0,-10]
+			[-10, 0 |-1, -1]
+			Read section 3.6
+	Dominant Strategies
+		The Assumption is that each person cares about them, they are selfish
+		Complete Knowledge
+			it is assume that each person knows the overall payoffs for each of the players decision
+		Rationality
+			Each player wants to maximize hi or her own payoff
+			Each player chooses an optimal strategy
+	Best Response
+		the best choice of one player, given a belief about the other player's choice.
+		Dominant Strategy is the best response foreach of the coice of the player
+		
+		
+			
 				
 		
