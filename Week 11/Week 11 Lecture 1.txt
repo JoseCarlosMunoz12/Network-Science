@@ -1,0 +1,30 @@
+November 6, 2023
+
+Basics of Game Theory
+	Why Games?
+		Diffusion, two models of difussion(read lecture)
+		Fractional and linear threshold of the model
+		Fractional model
+			The threshold is a number between 0 and 1
+			Initial adopters for each of the node. If the fractional number of node passes the threshold it is pass through
+		Linear model
+			Each node is an input weight. Natural wieght of node of a to b. Sum of all different weigh
+		The main question, how can we determine its threshold?
+			A natural approah is based on game theory
+		Two mains apsects of networks
+			Strucutre of links: who is linked to whome
+			Behavior: the otucome for any one node depends (Explicitily or implicitly on the combined behavrio)
+		Ex of game
+			Diffusion and network trafficing
+	Pay of Matrix
+		Situation
+			you have two large pieces of workd due the enxt day, and exam and a join presentation with partner
+			you can eitehr study for the xam or prepare for the presentation, bu not both
+			both can't communicatte
+			what is your coice to maximize your average grade
+			4 distince strategies.
+			P and E
+				if choose P, then both get 90,90
+				if you choose P and they chose E, then
+				
+		
