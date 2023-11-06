@@ -54,8 +54,52 @@ Basics of Game Theory
 	Best Response
 		the best choice of one player, given a belief about the other player's choice.
 		Dominant Strategy is the best response foreach of the coice of the player
+	Strict Dominant Strategies
+		A strategy S for Player 1 is a strict best response to a strategy T for plaeyer to if P_1(S,T) > P_1(S`, T). S` is any other strategy.
+		Following Dominant Strategy is not always give you the best payoff
+	Reasoning About Behavior
+		Rationality:
+			if a player has a strictly dominant strategy, it is rational for him/her to choose that strategy
+		Three cases
+			When both players have strict dominant, then choose that
+			if only has a striclty dominant, then the other person will choose best response
+			if neither has striclty dominant strategy, would be har dto determine
+Thresholds and Payoffs
+	Game for a single edge
+		Two nodes connected by an edge
+		Strategies: each node has two strategies A and B
+		Payoffs
+			if choose A, get a payoff of a > 0
+			if choose B, get b payoff of b > 0
+			if they choose oppisite, then the payoff is 0
+			[a,a | 0,0]
+			[0,0 | b,b]
+	More than one neighbor
+		if v choses a, then (pda
+		if choose b, then its (1-p)db
+		p is the fraction of the nieghbors of b that have behavior A. d is the number of nieghbors of b
+	Threshold rule
+		if pda > (1-p)db, then the choice of A is better other wise, choose B
+		so if p > \frac{b}{a + b}
+	The threshold q = \frac{b}{a + b}
+		if a fraction of your nieghbors that uses behavior A is at least q, the you will switch to A
+		\frac{2}{3 + 2} = 2/5
+		A is 3/7, since 3/7 is larger than q, then we go to A
+	Example
+		a = 3, b = 2; q = 2/5
+		Read more about the Cascade Stops and Complete Cascade
 		
-		
-			
-				
-		
+		how to decrease threshold, need to increase th payoff A, to decrease the threshold
+		Can try to decrease B, but that is harder to do
+		Changing a set of initial adapters can help with the cascade
+	Cascades and Clusters
+		Density
+			If you belong ot a groupd, many of your friends also tend to belong to this group
+			let c be a set of nodes in a graph
+			the density of C is defnied as the min{ the fraction of neighbors belonging to c}
+			for each contain into C
+			the fraction of neighbors belongin ot the cluter to C. cheack all v in C and see which one has the loweset fraction.
+			density of cluster, is the fraction threshold to pass to enter the cluster
+	Cascades and Density of Groups
+		 A set of V_0 initial adaptors will not a cause a complete cascade if and only if the set of v - v0 containa blocker cluster: a group of density greater thatn 1 - q
+	read in section 19.2 to 19.3 netowrks crouds and makerts
