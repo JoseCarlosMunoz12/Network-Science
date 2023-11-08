@@ -1,1 +1,51 @@
 November 8 2023
+
+Nash Equilibria and Network Traffic
+	Nash Equilibria
+		recap
+		a pay off matrix and normal form game:
+			we have players, strategies, outcomes payoff functions, payoff matrix, and assumption for games
+		in the matrix, each row a strategy for player1 and column are strategies for player2
+		intersction is the outcomes of each strategies chosen from each player
+		payoff function = P_1(S), is the function of each outcome for each strategy
+		each outcome, has payoff fore both player 1 and player 2
+		we assume that each players knows each other outcomes and strategies, we also assume that each player is rational(want to get the highest payoff)
+		Best response, the choice of  a strategy is the best based on a different strategy of the other player
+		Domininant strategy, a strategythat is the best response for every other stratregy for player 2
+		
+		if only one has a dominant strategy, other strategy chooses the best response to this strategy
+		
+	Idea of Nash Equilibrium
+		Even when there are no dominant strateies, we expect player sto choose strategies that are best responses to each other
+		how come?
+			if players choose best response to each ohter, then no player has an incentive to deviate to another strategy. These outcomes are stable and there is no incentive for the player to change.
+		a pair of strategies (S,T) is call a Nash Equilibrium. if S is the best reponse to T and T is the best response to S.
+	Single Nash Equilibria
+		if a fame has a sinle nash equilibrium, we assume that all players choose strategies in this equilibrium
+		What if there is more than one Nash Equilibrium?
+	Hawk dove game
+		is there a dominant strategy?
+			no, there is none for both players
+		There is two nash equilibrium in the game, but it is unstable, as we can't assume what the other player could do
+	Behavior of two players
+		if player a has a strictly dominant strategy S, does play it? yes
+		B then decides to do best response
+		in thi situtaion, there is only one nash equilibrium
+	Modeling Network Traffic
+		A road netoowkr in which A to C is x/100 min (x num of cars) and A to D is 45 min
+		C to B is 45 min and D to B is x/100
+		Num of players is 4k
+		strategy is acb or adb
+		payoff -(total travel time)
+		do we have a dominant strategy?
+		What is the equilibrium out come?
+		Nash Equilibrium, any other choice make their situtaion choice FOR ALL PLAYERS
+		Half players choose acb and the other half take adb.
+		4000 choose 2000 Nash Equilibria
+		
+		Is there another nash equilibrium? nope, there is only those 4000 choose 2000 nash equilibrium
+	New High way
+		what if there is a new lane. Makes sense to to take ACDB over anything else. because 4000/100 < 45
+	Braes's Paradox
+		A new highway makes the situtation way worse if there is was one lane made
+	
