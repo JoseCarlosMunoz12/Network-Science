@@ -48,4 +48,5 @@ Nash Equilibria and Network Traffic
 		what if there is a new lane. Makes sense to to take ACDB over anything else. because 4000/100 < 45
 	Braes's Paradox
 		A new highway makes the situtation way worse if there is was one lane made
-	
+	Is it suprising?
+		if each player had thonly strategy not confess in the prisoner's dilemma game, -1 is superior to -4
