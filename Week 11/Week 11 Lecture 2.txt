@@ -50,3 +50,17 @@ Nash Equilibria and Network Traffic
 		A new highway makes the situtation way worse if there is was one lane made
 	Is it suprising?
 		if each player had thonly strategy not confess in the prisoner's dilemma game, -1 is superior to -4
+	How to predict players, if there is no Nash Equilibria
+		ex, the head and taails game. if match, give player 1 to 2 coin, other wise give player 2 to 1
+		Get a strategy get a maximum strategy by tossing the coin using .
+		pure strategies, strategies that are choosen by the player
+		mixed strategy, are a probability distrubtion of which strategy to choose.
+		now we can determine strategy based on the distrubtion of the actor.
+		Now instead of A outcome, we can use the expect outcome
+		so best probabilty if p = 1/2 and q = 1/2 in this game. 
+		A mixed strategy game with a finite number of layers, a finite number of pure strategies for each player has at least one nash equilibrium of mixed strategies.
+		adding probability to game theory, it becomes elegant.
+		maxmin - maximizes the his worst case payoff
+		minmax minimizes the best case payoff of the oppenent.
+		a nesh equilibrium is both of these
+		
