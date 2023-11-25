@@ -1,0 +1,115 @@
+﻿Distribution,Fork,T0
+AlmaLinux,Red Hat Enterprise Linux,server
+Alpine Linux,LEAF Project,security
+ALT Linux,Mandrake Linux,general
+antiX,Debian,old computers
+antiX,MEPIS,old computers
+ArchBang,Arch Linux,general
+Arch Linux,i,general
+BLAG,Fedora,desktop
+Bodhi Linux,Debian,desktop
+Bodhi Linux,Ubuntu,desktop
+Canaima,Debian,Government of Venezuela
+Canaima,Ubuntu,Government of Venezuela
+CentOS,Red Hat Enterprise Linux,server
+CentOS Stream,Red Hat Enterprise Linux,server
+Chakra,Arch Linux,desktop
+ChromeOS,Gentoo Linux,web applications
+Clear Linux OS,i,container
+ClearOS,RHEL,server
+ClearOS,CentOS,server
+CrunchBang Linux,Debian,desktop
+Damn Small Linux,Debian,lightweight
+Damn Small Linux,Knoppix,lightweight
+Debian,i,general
+Debian Edu,Debian,schools
+Devuan,Debian,general
+Deepin,Debian,schools
+Dragora GNU/Linux-Libre,i,general
+dyne:bolic,Debian,multimedia
+Elementary OS,Ubuntu,general
+Elementary OS,Debian,general
+ELinOS,i,embedded systems
+Emdebian Grip,Debian,embedded systems
+EndeavourOS,Arch Linux,general
+Fedora Linux,Red Hat Linux,general
+Freespire,Ubuntu,desktop
+Gentoo Linux,Enoch Linux,general
+Guix System,i,live
+gNewSense,Debian,general
+Grml,Debian,live
+Hyperbola GNU/Linux-libre,Arch Linux,general
+Kali Linux,Debian,auditing
+Knoppix,Debian,live
+Korora,Fedora,desktop
+LibreCMC,LibreWRT,embedded systems
+Linspire,Ubuntu,?
+Linux Mint,Debian,desktop
+Linux Mint,Ubuntu,desktop
+Linux Lite,Ubuntu,desktop
+Mageia,Mandriva Linux,general
+Mandriva Linux,Red Hat Linux,general
+Manjaro Linux,Arch Linux,general
+MEPIS,Debian,desktop
+MIRACLE LINUX,Red Hat Enterprise Linux,server
+Musix GNU+Linux,Debian,multimedia
+Netrunner,Debian,desktop
+NixOS,i,general
+Novell Open Enterprise Server,SUSE Linux Enterprise Server,server
+OpenELEC,Kodi,multimedia
+openSUSE,Slackware,general
+openSUSE,Jurix,general
+OpenWrt,i,embedded systems
+OpenMandriva Lx,Mandriva Linux,multimedia
+Oracle Linux,Red Hat Enterprise Linux,server
+Parabola GNU/Linux-libre,Arch Linux,general
+Pardus,Gentoo,general
+Pardus,Debian,general
+Parrot OS,Debian,security
+Parsix,Debian,desktop
+Parted Magic,i,live
+PCLinuxOS,Mandriva Linux,desktop
+Pop! OS,Ubuntu,auditing
+Pentoo,Gentoo Linux,auditing
+Porteus,Slackware,lightweight
+Puppy Linux,i,lightweight
+PureOS,Debian,general
+Qubes OS,Xen and Fedora,security by compartmentalization
+Red Hat Enterprise Linux,Red Hat Linux,general
+Red Hat Enterprise Linux,Fedora,general
+Red Hat Linux,i,server
+Rocks Cluster Distribution,Red Hat Linux,server
+Rocky Linux,Red Hat Enterprise Linux,general
+ROSA,Mandriva,server
+Sabayon Linux,Gentoo Linux,general
+Salix OS,Slackware,general
+Scientific Linux,Red Hat Linux,server
+Scientific Linux,Red Hat Enterprise Linux,server
+Slackware,Softlanding Linux System,general
+Slax,Debian,live
+Slax,Slackware,live
+SliTaz GNU/Linux,i,portable
+Solus,Pardus Linux,desktop
+SolydXK,Debian,desktop
+SparkyLinux,Debian,general
+Source Mage GNU/Linux,Sorcerer,desktop
+SteamOS,Debian,video games
+SteamOS,Arch Linu,video games
+SUSE Linux Enterprise,Slackware,edge
+SUSE Linux Enterprise,Jurix,edge
+Tails,Debian,security-focused aimed for anonymity and privacy
+Tiny Core Linux,i,portable
+Trisquel GNU/Linux,Ubuntu,desktop
+TurnKey GNU/Linux,Debian,server based software appliance library aiming to balance security and ease of use
+Ubuntu,Debian,server based software appliance library aiming to balance security and ease of use
+Univention Corporate Server,Debian,home
+Ututo,Ubuntu,general
+Ututo,Gentoo Linux,general
+VectorLinux,Slackware,desktop
+Void Linux,i,general
+Webconverger,Debian,kiosk software
+Xandros,Corel Linux,?
+Zentyal,Debian,small business server
+Zentyal,Ubuntu,small business server
+Zenwalk,Slackware,general
+Zorin OS,Ubuntu,general
