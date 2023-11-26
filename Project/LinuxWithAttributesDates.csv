@@ -1,0 +1,130 @@
+﻿Distribution,Fork,T0,date
+AlmaLinux,Red Hat Enterprise Linux,server,2021
+Alpine Linux,LEAF Project,security,2006
+ALT Linux,Mandrake Linux,general,2001
+antiX,Debian,old computers,2007
+antiX,MEPIS,old computers,2007
+ArchBang,Arch Linux,general,2002
+Arch Linux,i,general,2002
+BLAG,Fedora,desktop,2002
+Bodhi Linux,Debian,desktop,2011
+Bodhi Linux,Ubuntu,desktop,2011
+Canaima,Debian,Government of Venezuela,2007
+Canaima,Ubuntu,Government of Venezuela,2007
+CentOS,Red Hat Enterprise Linux,server,2003
+CentOS Stream,Red Hat Enterprise Linux,server,2019
+Chakra,Arch Linux,desktop,2010
+ChromeOS,Gentoo Linux,web applications,2011
+Clear Linux OS,i,container,2015
+ClearOS,Red Hat Enterprise Linux,server,2000
+ClearOS,CentOS,server,2000
+CrunchBang Linux,Debian,desktop,2008
+Damn Small Linux,Debian,lightweight,2003
+Damn Small Linux,Knoppix,lightweight,2003
+Debian,i,general,1993
+Debian Edu,Debian,schools,2004
+Devuan,Debian,general,2016
+Deepin,Debian,schools,2004
+Dragora GNU/Linux-Libre,i,general,2009
+dyne:bolic,Debian,multimedia,2005
+Elementary OS,Ubuntu,general,2011
+Elementary OS,Debian,general,2011
+ELinOS,i,embedded systems,1999
+Emdebian Grip,Debian,embedded systems,2009
+EndeavourOS,Arch Linux,general,2019
+Fedora Linux,Red Hat Linux,general,2003
+Freespire,Ubuntu,desktop,2001
+Gentoo Linux,Enoch Linux,general,2002
+Guix System,i,live,2005
+gNewSense,Debian,general,2006
+Grml,Debian,live,2005
+Hyperbola GNU/Linux-libre,Arch Linux,general,2017
+Kali Linux,Debian,auditing,2013
+Knoppix,Debian,live,2000
+Korora,Fedora,desktop,2005
+LibreCMC,LibreWRT,embedded systems,2010
+Linspire,Ubuntu,?,2001
+Linux Mint,Debian,desktop,2012
+Linux Mint,Ubuntu,desktop,2012
+Linux Lite,Ubuntu,desktop,2012
+Mageia,Mandriva Linux,general,2010
+Mandriva Linux,Red Hat Linux,general,1998
+Manjaro Linux,Arch Linux,general,2012[45]
+MEPIS,Debian,desktop,2003
+MIRACLE LINUX,Red Hat Enterprise Linux,server,2000
+Musix GNU+Linux,Debian,multimedia,2008
+Netrunner,Debian,desktop,2009
+NixOS,i,general,2003
+Novell Open Enterprise Server,SUSE Linux Enterprise Server,server,2003
+OpenELEC,Kodi,multimedia,2011
+openSUSE,Slackware,general,2006
+openSUSE,Jurix,general,2006
+OpenWrt,i,embedded systems,2007
+OpenMandriva Lx,Mandriva Linux,multimedia,2011
+Oracle Linux,Red Hat Enterprise Linux,server,2006
+Parabola GNU/Linux-libre,Arch Linux,general,2009
+Pardus,Gentoo Linux,general,2005
+Pardus,Debian,general,2005
+Parrot OS,Debian,security,2013
+Parsix,Debian,desktop,2005
+Parted Magic,i,live,2007
+PCLinuxOS,Mandriva Linux,desktop,2003
+Pop! OS,Ubuntu,auditing,2005
+Pentoo,Gentoo Linux,auditing,2005
+Porteus,Slackware,lightweight,2010
+Puppy Linux,i,lightweight,2003
+PureOS,Debian,general,2009
+Qubes OS,Xen,security by compartmentalization,2012
+Qubes OS,Fedora,security by compartmentalization,2002
+Red Hat Enterprise Linux,Red Hat Linux,general,2002
+Red Hat Enterprise Linux,Fedora,general,1995
+Red Hat Linux,i,server,2000
+Rocks Cluster Distribution,Red Hat Linux,server,2021
+Rocky Linux,Red Hat Enterprise Linux,general,2011
+ROSA,Mandriva Linux,server,2005
+Sabayon Linux,Gentoo Linux,general,2009
+Salix OS,Slackware,general,2004
+Scientific Linux,Red Hat Linux,server,2004
+Scientific Linux,Red Hat Enterprise Linux,server,1993
+Slackware,Softlanding Linux System,general,2002
+Slax,Debian,live,2002
+Slax,Slackware,live,2008
+SliTaz GNU/Linux,i,portable,2005
+Solus,Pardus Linux,desktop,2013
+SolydXK,Debian,desktop,2012
+SparkyLinux,Debian,general,2013
+Source Mage GNU/Linux,Sorcerer,desktop,2013
+SteamOS,Debian,video games,2013
+SteamOS,Arch Linux,video games,2000
+SUSE Linux Enterprise,Slackware,edge,2000
+SUSE Linux Enterprise,Jurix,edge,2009
+Tails,Debian,security-focused aimed for anonymity and privacy,2009
+Tiny Core Linux,i,portable,2005
+Trisquel GNU/Linux,Ubuntu,desktop,2008
+TurnKey GNU/Linux,Debian,server based software appliance library aiming to balance security and ease of use,2008
+Ubuntu,Debian,server based software appliance library aiming to balance security and ease of use,2004
+Univention Corporate Server,Debian,home,2000
+Ututo,Ubuntu,general,2000
+Ututo,Gentoo Linux,general,1999
+VectorLinux,Slackware,desktop,2008
+Void Linux,i,general,2007
+Webconverger,Debian,kiosk software,2001
+Xandros,Corel Linux,?,2005
+Zentyal,Debian,small business server,2005
+Zentyal,Ubuntu,small business server,2004
+Zenwalk,Slackware,general,2009
+Zorin OS,Ubuntu,general,2009
+LEAF Project,Linux Router Project,internet,2022
+Mandrake Linux,PCLinuxOS,general,1998
+Fedora,Red Hat Linux,servers,2003
+Enoch Linux,Gentoo Linux,general,1999
+LibreWRT,Arch Linux,general,2008
+SUSE Linux Enterprise Server,Red Hat Linux,server,2000
+Kodi,i,multimedia,2016
+Jurix,i,server,2016
+Xen,Jurix,server,2003
+Softlanding Linux System,i,general,
+Pardus Linux,Debian,general,1992
+Sorcerer,i,general,2007
+Corel Linux,Debian,general,1999
+Linux Router Project,i,internet,1997

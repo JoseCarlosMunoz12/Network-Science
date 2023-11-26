@@ -25,8 +25,20 @@
 \end{center}
 %===============================
 \section*{1}
+1) The nodes that will have the larget cascade are node 8, 2 and 3. node 8 will cascade into 6,7 on the first iteration and then into 5 in the second iteration. Node 2 will cascade into 1 on the first iteration, 3 on the second and then on 4 for the final iteration. Node 3 will first cascade into 1, then into 2, and finally into 4. All three of theses starting nodes will have a cascade of 4.\\
+2)There are two possible sets of initial adopters that will cause a complete cascasde. the first set is node 8 and node 2. On the first iteration nodes 6,7 and 1 will change. The second iteration wil have node 5 and 3 converted. And the final node 4 will be converted.\\
+The second set will also have a complete cascade is node 3 and node 8. The first iteration node 6,7 and 1 will be converted. Then the second iteration node 5 and node 2 will convert. And node 4 will convert in the final iteration.
 \section*{2}
+For a cascade to occur, the fractional of neighbors must be higher than the value q. In this situation,all the q are the same value. To have a complete cascade, we have to find the node with the highest amount of neighbors. In this situation it is node 1. Node 1 has a total of 5 neighbors. The threshold should be at $\frac{1}{5}$. So the maximum threshold for a complete cascade should be $\frac{1}{5}$ or at 20\%. When this is applied, the neighbors of 5 will convert (nodes 5,4,2 and 3). Then the next iteration nodes 6,8, and 9 will convert. Leading it to be a complete cascade.
 \section*{3}
+1) The influence of A is 4. This is because that in the first iteration node 2 is activated. Then in the next iteration, node 4 is activated. There is no more nodes that can be activated, so the influence of A is 4\\
+2)The set of node 6, 3 and 5 have a influence of 6. This is because in the first iteration node 2 id activated. Then the next node to be acitavated is 4. And then node 1 is finally activated. There will be no more nodes to be activated. So the total influence of this set A $\{3,5,6\}$ is 6.
 \section*{4}
+1) In this situation, the transmition rate is 0.01* 10 or 0.1 and the recovery rate is 0.4. Since the transmission rate is lower than the recovery rate, the infection will shrink.\\
+2)In this situation, the transmition rate is 0.03 * 10 or 0.3 and the recovery rate is 0,1. Since the transmission rate is higher than the recovery rate, the infection will spread.\\
+3)In this situattion, the transmission rate is 0.3 * 10 or 0.3 and the recovery rate is 0.2. Since the transmission rate is higher than the recovery rate, teh infeciton will spread.
 \section*{5}
+1) in a weeks time, an infected person would have seen a total of 70 possible contancts. From these contacts there is a 0.03 chance of a person of becoming infected. So our Infection rate is $\beta = 0.03 * 70$ or 2.1. Sinec our infection rate is above 1, the infection in this situtation will spread.\\
+2) In this scenerio, the infected person has the same total amount of contactt in a weeks time, 70 people. The odds of being infected is 0.02 So our Infection rate is $\beta = 0.02 * 70$ or 1.4. Here our infection rate is above 1, so the infection will spread in this situation.\\
+3)In this scenerio, the same amount of people are contacted and the chance of being infected is 0.01. So our Infection rate is $\beta = 0.01 * 70$ or 0.7. Since the infection rate is below 1, the infection will not spread but shrink.
 \end{document}

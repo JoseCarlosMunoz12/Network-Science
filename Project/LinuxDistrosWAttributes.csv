@@ -1,115 +1,116 @@
-﻿Distribution,Forked from,T0,T1,T2,,,
-AlmaLinux,Red Hat Enterprise Linux (RHEL),server, workstation,,,,
-Alpine Linux,LEAF Project,security, lightweight, general,,,
-ALT Linux,Mandrake Linux,general, school,,,,
-antiX,Debian,old computers,,,,,
-antiX,MEPIS,old computers,,,,,
-ArchBang,Arch Linux,general,,,,,
-Arch Linux,,general,,,,,
-BLAG,Fedora,desktop,,,,,
-Bodhi Linux,Debian,desktop, lightweight,,,,
-Bodhi Linux,Ubuntu,desktop, lightweight,,,,
-Canaima,Debian,Government of Venezuela,,,,,
-Canaima,Ubuntu,Government of Venezuela,,,,,
-CentOS,Red Hat Enterprise Linux (RHEL),server, workstation,,,,
-CentOS Stream,Red Hat Enterprise Linux (RHEL),server, workstation,,,,
-Chakra,Arch Linux,desktop,,,,,
-ChromeOS,Gentoo Linux,web applications,,,,,
-Clear Linux OS,,container, server, desktop,,,
-ClearOS,RHEL,server, gateway, network,,,
-ClearOS,CentOS,server, gateway, network,,,
-CrunchBang Linux,Debian,desktop,,,,,
-Damn Small Linux,Debian,lightweight, portable,,,,
-Damn Small Linux,Knoppix,lightweight, portable,,,,
-Debian,,general, server, desktop,,,
-Debian Edu,Debian,schools,,,,,
-Devuan,Debian,general,,,,,
-Deepin,Debian,schools,,,,,
-Dragora GNU/Linux-Libre,,general,,,,,
-dyne:bolic,Debian,multimedia,,,,,
-Elementary OS,Ubuntu,general,,,,,
-Elementary OS,Debian,general,,,,,
-ELinOS,,embedded systems,,,,,
-Emdebian Grip,Debian,embedded systems,,,,,
-EndeavourOS,Arch Linux,general,,,,,
-Fedora Linux,Red Hat Linux,general,,,,,
-Freespire,Ubuntu,desktop,,,,,
-Gentoo Linux,Enoch Linux,general,,,,,
-Guix System,,live, maintenance, security, network, forensic, accessibility
-gNewSense,Debian,general, server,,,,
-Grml,Debian,live, maintenance, security, network, forensic, accessibility
-Hyperbola GNU/Linux-libre,Arch Linux,general,,,,,
-Kali Linux,Debian,auditing, forensic, security, network,,
-Knoppix,Debian,live,,,,,
-Korora,Fedora,desktop,,,,,
-LibreCMC,LibreWRT,embedded systems,,,,,
-Linspire,Ubuntu,?,,,,,
-Linux Mint,Debian,desktop,,,,,
-Linux Mint,Ubuntu,desktop,,,,,
-Linux Lite,Ubuntu,desktop,,,,,
-Mageia,Mandriva Linux,general,,,,,
-Mandriva Linux,Red Hat Linux,general,,,,,
-Manjaro Linux,Arch Linux,general,,,,,
-MEPIS,Debian,desktop, server,,,,
-MIRACLE LINUX,Red Hat Enterprise Linux (RHEL),server,,,,,
-Musix GNU+Linux,Debian,multimedia,,,,,
-Netrunner,Debian,desktop,,,,,
-NixOS,,general, server, desktop,,,
-Novell Open Enterprise Server,SUSE Linux Enterprise Server,server,,,,,
-OpenELEC,Kodi,multimedia,,,,,
-openSUSE,Slackware,general, desktop,,,,
-openSUSE,Jurix,general, desktop,,,,
-OpenWrt,,embedded systems,,,,,
-OpenMandriva Lx,Mandriva Linux,multimedia,,,,,
-Oracle Linux,Red Hat Enterprise Linux (RHEL),server,,,,,
-Parabola GNU/Linux-libre,Arch Linux,general,,,,,
-Pardus,Gentoo (2011.2),general,,,,,
-Pardus,Debian,general,,,,,
-Parrot OS,Debian,security, desktop,,,,
-Parsix,Debian,desktop,,,,,
-Parted Magic,,live, maintenance,,,,
-PCLinuxOS,Mandriva Linux,desktop,,,,,
-Pop! OS,Ubuntu,auditing, security,,,,
-Pentoo,Gentoo Linux,auditing, security,,,,
-Porteus,Slackware,lightweight, portable,,,,
-Puppy Linux,,lightweight, portable,,,,
-PureOS,Debian,general, security, privacy,,,
-Qubes OS,Xen and Fedora,security by compartmentalization, desktop,,,,
-Red Hat Enterprise Linux (RHEL),Red Hat Linux,general,,,,,
-Red Hat Enterprise Linux (RHEL),Fedora,general,,,,,
-Red Hat Linux,–,server, workstation,,,,
-Rocks Cluster Distribution,Red Hat Linux,server, workstation,,,,
-Rocky Linux,Red Hat Enterprise Linux (RHEL),general,,,,,
-ROSA,Mandriva,server, general,,,,
-Sabayon Linux,Gentoo Linux,general,,,,,
-Salix OS,Slackware,general,,,,,
-Scientific Linux,Red Hat Linux,server, workstation,,,,
-Scientific Linux,Red Hat Enterprise Linux (RHEL),server, workstation,,,,
-Slackware,Softlanding Linux System (SLS),general,,,,,
-Slax,Debian,live,,,,,
-Slax,Slackware,live,,,,,
-SliTaz GNU/Linux,,portable,,,,,
-Solus,Pardus Linux,desktop,,,,,
-SolydXK,Debian,desktop,,,,,
-SparkyLinux,Debian,general, video games,,,,
-Source Mage GNU/Linux,Sorcerer,desktop,,,,,
-SteamOS,Debian (2.0),video games,,,,,
-SteamOS,Arch Linux (3.0),video games,,,,,
-SUSE Linux Enterprise,Slackware,edge, workstation, server, supercomputer,,
-SUSE Linux Enterprise,Jurix,edge, workstation, server, supercomputer,,
-Tails,Debian,security-focused aimed for anonymity and privacy,,,,,
-Tiny Core Linux,Independent,portable,,,,,
-Trisquel GNU/Linux,Ubuntu LTS,desktop,,,,,
-TurnKey GNU/Linux,Debian,server based software appliance library aiming to balance security and ease of use,,,,,
-Ubuntu,Debian,server based software appliance library aiming to balance security and ease of use,,,,,
-Univention Corporate Server,Debian,home, business,school,,,
-Ututo,Ubuntu,general,,,,,
-Ututo,Gentoo Linux,general,,,,,
-VectorLinux,Slackware,desktop,,,,,
-Void Linux,,general,,,,,
-Webconverger,Debian,kiosk software, digital signage,,,,
-Xandros,Corel Linux,?,,,,,
-Zentyal,Debian,small business server,,,,,
-Zentyal,Ubuntu,small business server,,,,,
-Zenwalk,Slackware,general,,,,,
-Zorin OS,Ubuntu,general, desktop,,,,
+﻿Distribution,Forked from,T0,T1,T2,,,,date
+AlmaLinux,Red Hat Enterprise Linux (RHEL),server, workstation,,,,,2021
+Alpine Linux,LEAF Project,security, lightweight, general,,,,2006
+ALT Linux,Mandrake Linux,general, school,,,,,2001
+antiX,Debian,old computers,,,,,,2007
+antiX,MEPIS,old computers,,,,,,2007
+ArchBang,Arch Linux,general,,,,,,2002
+Arch Linux,,general,,,,,,2002
+BLAG,Fedora,desktop,,,,,,2002
+Bodhi Linux,Debian,desktop, lightweight,,,,,2011
+Bodhi Linux,Ubuntu,desktop, lightweight,,,,,2011
+Canaima,Debian,Government of Venezuela,,,,,,2007
+Canaima,Ubuntu,Government of Venezuela,,,,,,2007
+CentOS,Red Hat Enterprise Linux (RHEL),server, workstation,,,,,2003
+CentOS Stream,Red Hat Enterprise Linux (RHEL),server, workstation,,,,,2019
+Chakra,Arch Linux,desktop,,,,,,2010
+ChromeOS,Gentoo Linux,web applications,,,,,,2011
+Clear Linux OS,,container, server, desktop,,,,2015
+ClearOS,RHEL,server, gateway, network,,,,2000
+ClearOS,CentOS,server, gateway, network,,,,2000
+CrunchBang Linux,Debian,desktop,,,,,,2008
+Damn Small Linux,Debian,lightweight, portable,,,,,2003
+Damn Small Linux,Knoppix,lightweight, portable,,,,,2003
+Debian,,general, server, desktop,,,,1993
+Debian Edu,Debian,schools,,,,,,2004
+Devuan,Debian,general,,,,,,2016
+Deepin,Debian,schools,,,,,,2004
+Dragora GNU/Linux-Libre,,general,,,,,,2009
+dyne:bolic,Debian,multimedia,,,,,,2005
+Elementary OS,Ubuntu,general,,,,,,2011
+Elementary OS,Debian,general,,,,,,2011
+ELinOS,,embedded systems,,,,,,1999
+Emdebian Grip,Debian,embedded systems,,,,,,2009
+EndeavourOS,Arch Linux,general,,,,,,2019
+Fedora Linux,Red Hat Linux,general,,,,,,2003
+Freespire,Ubuntu,desktop,,,,,,2001
+Gentoo Linux,Enoch Linux,general,,,,,,2002
+Guix System,,live, maintenance, security, network, forensic, accessibility,2005
+gNewSense,Debian,general, server,,,,,2006
+Grml,Debian,live, maintenance, security, network, forensic, accessibility,2005
+Hyperbola GNU/Linux-libre,Arch Linux,general,,,,,,2017
+Kali Linux,Debian,auditing, forensic, security, network,,,2013
+Knoppix,Debian,live,,,,,,2000
+Korora,Fedora,desktop,,,,,,2005
+LibreCMC,LibreWRT,embedded systems,,,,,,2010
+Linspire,Ubuntu,?,,,,,,2001
+Linux Mint,Debian,desktop,,,,,,2012
+Linux Mint,Ubuntu,desktop,,,,,,2012
+Linux Lite,Ubuntu,desktop,,,,,,2012
+Mageia,Mandriva Linux,general,,,,,,2010
+Mandriva Linux,Red Hat Linux,general,,,,,,1998
+Manjaro Linux,Arch Linux,general,,,,,,2012
+MEPIS,Debian,desktop, server,,,,,2003
+MIRACLE LINUX,Red Hat Enterprise Linux (RHEL),server,,,,,,2000
+Musix GNU+Linux,Debian,multimedia,,,,,,2008
+Netrunner,Debian,desktop,,,,,,2009
+NixOS,,general, server, desktop,,,,2003
+Novell Open Enterprise Server,SUSE Linux Enterprise Server,server,,,,,,2003
+OpenELEC,Kodi,multimedia,,,,,,2011
+openSUSE,Slackware,general, desktop,,,,,2006
+openSUSE,Jurix,general, desktop,,,,,2006
+OpenWrt,,embedded systems,,,,,,2007
+OpenMandriva Lx,Mandriva Linux,multimedia,,,,,,2011
+Oracle Linux,Red Hat Enterprise Linux (RHEL),server,,,,,,2006
+Parabola GNU/Linux-libre,Arch Linux,general,,,,,,2009
+Pardus,Gentoo (2011.2),general,,,,,,2005
+Pardus,Debian,general,,,,,,2005
+Parrot OS,Debian,security, desktop,,,,,2013
+Parsix,Debian,desktop,,,,,,2005
+Parted Magic,,live, maintenance,,,,,2007
+PCLinuxOS,Mandriva Linux,desktop,,,,,,2003
+Pop! OS,Ubuntu,auditing, security,,,,,2005
+Pentoo,Gentoo Linux,auditing, security,,,,,2005
+Porteus,Slackware,lightweight, portable,,,,,2010
+Puppy Linux,,lightweight, portable,,,,,2003
+PureOS,Debian,general, security, privacy,,,,2009
+Qubes OS,Xen and Fedora,security by compartmentalization, desktop,,,,,2012
+Red Hat Enterprise Linux (RHEL),Red Hat Linux,general,,,,,,2002
+Red Hat Enterprise Linux (RHEL),Fedora,general,,,,,,2002
+Red Hat Linux,–,server, workstation,,,,,1995
+Rocks Cluster Distribution,Red Hat Linux,server, workstation,,,,,2000
+Rocky Linux,Red Hat Enterprise Linux (RHEL),general,,,,,,2021
+ROSA,Mandriva,server, general,,,,,2011
+Sabayon Linux,Gentoo Linux,general,,,,,,2005
+Salix OS,Slackware,general,,,,,,2009
+Scientific Linux,Red Hat Linux,server, workstation,,,,,2004
+Scientific Linux,Red Hat Enterprise Linux (RHEL),server, workstation,,,,,2004
+Slackware,Softlanding Linux System (SLS),general,,,,,,1993
+Slax,Debian,live,,,,,,2002
+Slax,Slackware,live,,,,,,2002
+SliTaz GNU/Linux,,portable,,,,,,2008
+Solus,Pardus Linux,desktop,,,,,,2005
+SolydXK,Debian,desktop,,,,,,2013
+SparkyLinux,Debian,general, video games,,,,,2012
+Source Mage GNU/Linux,Sorcerer,desktop,,,,,,2013
+SteamOS,Debian (2.0),video games,,,,,,2013
+SteamOS,Arch Linux (3.0),video games,,,,,,2013
+SUSE Linux Enterprise,Slackware,edge, workstation, server, supercomputer,,,2000
+SUSE Linux Enterprise,Jurix,edge, workstation, server, supercomputer,,,2000
+Tails,Debian,security-focused aimed for anonymity and privacy,,,,,,2009
+Tiny Core Linux,Independent,portable,,,,,,2009
+Trisquel GNU/Linux,Ubuntu LTS,desktop,,,,,,2005
+TurnKey GNU/Linux,Debian,server based software appliance library aiming to balance security and ease of use,,,,,,2008
+Ubuntu,Debian,server based software appliance library aiming to balance security and ease of use,,,,,,2008
+Univention Corporate Server,Debian,home, business,school,,,,2004
+Ututo,Ubuntu,general,,,,,,2000
+Ututo,Gentoo Linux,general,,,,,,2000
+VectorLinux,Slackware,desktop,,,,,,1999
+Void Linux,,general,,,,,,2008
+Webconverger,Debian,kiosk software, digital signage,,,,,2007
+Xandros,Corel Linux,?,,,,,,2001
+Zentyal,Debian,small business server,,,,,,2005
+Zentyal,Ubuntu,small business server,,,,,,2005
+Zenwalk,Slackware,general,,,,,,2004
+Zorin OS,Ubuntu,general, desktop,,,,,2009
+,,,,,,,,#N/A
