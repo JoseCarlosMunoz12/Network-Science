@@ -1,4 +1,45 @@
 https://www.linkedin.com/pulse/why-choose-linux-over-windows-mayank-singh#:~:text=Linux%20is%20known%20for%20its%20superior%20performance%20and%20speed%20compared,the%20life%20of%20their%20computers.
+https://www.kali.org/
+https://ubuntu.com/blog/linux-for-schools-why-use-ubuntu-for-education
+https://distrowatch.com
+
 Why Use Linux over other OS
 
-Open Source, Custimization, Stability, Security, Cost, performance, Privacy, Community Support
+Open Source
+	Linux is open source, which means that its source code is freely available for anyone to modify and redistribute.
+	Want to make your own linux and based it off from existing distros, fork it and a new one is born
+Custimization
+	
+Stability
+
+Security
+	More secure than windows. mostly because hackers don't tend to attack linux. They can, just the scale that Windows is used, makes linux less attractive
+Cost
+	Its Free. No need to pay. Can pay for upgrades services and up to date bug fixes and issues
+performance
+	Since Linux was built and design to have minimal overhead, there is less bloat and background features for the computer to work. 
+
+Privacy
+	Data you use in Linux is yours. None of the Windows sharing data
+Community Support
+	-have lots of harden supporters
+	-If an issue occurs, they can be contacted for helps and hacks
+
+
+
+Who uses Linux
+NASA, ereaders, Tvs Smarwatches. SteamOS is a linux based os made for gaming and used for the Steam Deck.
+Servers in business use it as well.
+Government of Venezuela. what an endorsement
+Some highlight distros
+	Kali Linux
+		popular in the hacking scene. ALready had pre built programs for hacking, probing, and ethical hacking. All in one ready built.
+		Ease of use and highly customizable(trait from Linux)
+		
+	Ubuntu
+		Like windows but with its own quircks.
+		Education can use. Due to linux being lightweight and less bloated. Old desktop and laptops can be used. 
+	NOVA
+		Cuba forked from Gentoo and made thier own OS. Since Cuba is under embargo, and some computers they own have WIndows. Government decided to design thier own OS. It was discontinued in 2016 but then it came back in development
+	Canaima
+		using development from Debian and Ubuntu, Venezuela made thier own OS in 2007.
