@@ -43,3 +43,4 @@ Some highlight distros
 		Cuba forked from Gentoo and made thier own OS. Since Cuba is under embargo, and some computers they own have WIndows. Government decided to design thier own OS. It was discontinued in 2016 but then it came back in development
 	Canaima
 		using development from Debian and Ubuntu, Venezuela made thier own OS in 2007.
+	https://docs.google.com/presentation/d/1Ly7D1N6nWiK40M5D4s-pn9WzjK130jWYpHeFhHR25pE/edit#slide=id.g29f1b353110_3_28

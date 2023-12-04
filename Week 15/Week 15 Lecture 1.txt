@@ -1,0 +1,58 @@
+December 4, 2023
+	Network Science Study guide
+		Final Exam stuff to get ready for!
+		last HW assignment and studies
+		Diffusion review to udnerstand what is going on.
+		Hits will be done one wednesday
+	read Slides and HW assignment about what to study on
+	Note on Final Exam
+		Aud 841 open book and open note
+		9 problems with  20 points
+		problem 1 measures for network
+		problem 2 page ranke
+			Need to understand page ranke and the idea of how it works
+		problem 3 Modulairty
+			no calculation but for a given colored graph, we need to understand how it works
+			idea of modularity what are we actually measuring
+		problem 4 Decentralized search
+			decentralized search with the myopic search algorithm,
+		problem 5 random netowrks and scale free networks
+			scale free = have power logic distribution
+				no need to compute, just understand a random graph and a power logic distribution
+				the distribution of a power logic is logoritmic distribution
+				random graph it is an average degree distributed
+		problem 6 signed networks
+			given a sign graph, determined if it is balanced or not
+		problem 7
+			diffusion epidemic on networks
+		problem 8 and 9
+			two questions on presentation topics
+			
+	HW 5 review
+		see why the second questions is wwrong
+			the maximum threshold is 1/2.
+			Node 1 while 1/5 will work, check the nieghbors' neighbors to see if thier threshold can be higher and still generate a cascade
+			For this one 
+				1)Find the node with the highest degrees.
+				2) then check each of its neighbor to find which one can have a full cascade with the degree netowrk.
+				ex) node 1 has 5 neighbors. Cheacck the amount of neighbors has the (form fraction 1/n) then apply that threshold from highest to lowest until we get a complete cascade
+		question 4
+			gamma is the removal sum of the death and the recovery rate.
+				so for this question it was q + r
+		Question 3
+			gamma is  1/7 Because we assume that a person will recover is 1/7(for a day)
+			is 7 days ( goes to 1 ) because by that time, of the 7 out of 7 will have recover.
+	Review Time
+		Diffusion in networks
+			3 models of diffusion
+				fraction, linear and threshold model
+			diffusion is choosing to change, epidemics you don't choose. it happens to you
+			cascade - procss in which each node changes
+			A complete cascade is when all of the nodes change to it.
+			In threshold model, it is an undirected graph.
+				not necessary all nodes have the same threhold. each threshold could have thier own value.
+				in node 1, 2 wil be activated because the nieghbors of 2 are 1 and 3. the fraction is 1/2
+				since the fraction is 1/2 is larger than 1/3 threshold, it will activate
+				the \Theta(i) = \frac{\sum i_n * weight_i_n}{d_i}
+		
+			
